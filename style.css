@@ -1,0 +1,50 @@
+:root{
+  /*main colors*/
+  --c1:coral;
+  --c2:lightcoral;
+  
+  --l1:white;
+  --l2:#EEE;
+  --d1:black;
+  --d2:grey;
+  
+  --ff:sans-serif;
+  --mxw:960px;
+  --m:20px;
+}
+body{
+  font-family: var(--ff);
+  max-width:var(--mxw);
+  margin:0 auto;
+  padding:var(--m);
+  
+  box-sizing:border-box;
+}
+
+a{ text-decoration:none}
+
+p{}
+
+h1,h2,h3,h4,h5,h6{}
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+
+
+header, main, footer{}
+header{}
+main{}
+footer{
+  padding: var(--m);
+  text-align: center;
+}
+
+
+nav ul,
+.flex{ padding-left: 0; list-style:none; display: flex;}
+
+
+img{max-width:100%}
