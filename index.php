@@ -16,8 +16,8 @@
 
     <main>
         <ol class="archivos">
-            <li><a href="/echo">echo</a></li>
-            <li><a href="/funciones">funciones</a></li>
+            <li><a href="./echo/">echo</a></li>
+            <li><a href="./funciones/">funciones</a></li>
 
             <li><a href="/ejemplo">ejemplo</a></li>
             <li><a href="/ejemplo">ejemplo</a></li>
