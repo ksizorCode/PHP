@@ -2,7 +2,12 @@
 
 
 function img($src, $alt){
-echo '<img class="img-fluid" src="'.$src.'" alt="'.$alt.'">';
+//echo '<img class="img-fluid" src="'.$src.'" alt="'.$alt.'">';
+
+echo '<img srcset="'.$src.'-320w.jpg,
+            '.$src.'-480w.jpg 1.5x,
+            '.$src.'-640w.jpg 2x"
+     src="'.$src.'-640w.jpg" alt="'.$alt.'">'
 }
 
 // img('img/001.jpg', 'Atareder en Madrid');
