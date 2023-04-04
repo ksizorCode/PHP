@@ -1,0 +1,27 @@
+body{
+    background: #fdf6ea;
+    font-family: sans-serif;
+    padding:10vw;
+    
+    display: block;
+    justify-items:center;
+    align-content:center;
+  }
+  
+  main{
+    max-width:450px;
+    margin: 0 auto;
+    text-align: center;
+    background: white;
+    border-radius:20px;
+    box-shadow:3px 8px 8pc rgba(0,0,0,.3);
+    padding: 30px;
+  }
+  
+  p{ font-family:serif;}
+  
+  img{ max-width:100%;}
+
+  fieldset{ margin:20px 0}
+
+  input[type='submit']{ background-color: coral; border-radius:20px; padding: 8px;

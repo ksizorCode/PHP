@@ -21,8 +21,8 @@
 
             <li><a href="./if">if</a></li>
             <li><a href="./for">for</a></li>
-            <li><a href="./get">get</a></li>
-            <li><a href="./ejemplo">ejemplo</a></li>
+            <li><a href="./GET">get</a></li>
+            <li><a href="./POST">ejemplo</a></li>
             <li><a href="./ejemplo">ejemplo</a></li>
             <li><a href="./ejemplo">ejemplo</a></li>
         </ol>
