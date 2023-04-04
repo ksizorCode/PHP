@@ -19,12 +19,12 @@
             <li><a href="./echo/">echo</a></li>
             <li><a href="./funciones/">funciones</a></li>
 
-            <li><a href="/ejemplo">ejemplo</a></li>
-            <li><a href="/ejemplo">ejemplo</a></li>
-            <li><a href="/ejemplo">ejemplo</a></li>
-            <li><a href="/ejemplo">ejemplo</a></li>
-            <li><a href="/ejemplo">ejemplo</a></li>
-            <li><a href="/ejemplo">ejemplo</a></li>
+            <li><a href="./if">if</a></li>
+            <li><a href="./for">for</a></li>
+            <li><a href="./get">get</a></li>
+            <li><a href="./ejemplo">ejemplo</a></li>
+            <li><a href="./ejemplo">ejemplo</a></li>
+            <li><a href="./ejemplo">ejemplo</a></li>
         </ol>
     </main>
 
