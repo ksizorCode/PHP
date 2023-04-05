@@ -14,7 +14,7 @@
 <?  
 //array multidimensional
 $alumnos2 = [
-    ['nombre'=>"Fran",    'apellido'=>"Santos",      'lugar'=>"Gijon",   'foto'=>"001.jpg"],
+    ['apellido'=>"Santos",     'lugar'=>"Gijon",  'nombre'=>"Fran", 'foto'=>"001.jpg"],
     ['nombre'=>"Richard", 'apellido'=>"Beaugrand",   'lugar'=>"Gijon",   'foto'=>"002.jpg"],
     ['nombre'=>"Jess",    'apellido'=>"Garcia",      'lugar'=>"Gijon",   'foto'=>"003.jpg"],
     ['nombre'=>"Bea",     'apellido'=>"Perez",       'lugar'=>"Gijon",   'foto'=>"005.jpg"],
