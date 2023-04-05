@@ -12,9 +12,17 @@
 
 <ul>
 <?  
+
+/* VALORES MINI-BASE DE DATOS*/
+//Valores a cambiar en caso de necesidad
+//Se ponen aquí arriba para que estén más a mano
+$rutaImg="imagenes/";
+
 //array multidimensional
 $alumnos2 = [
-    ['apellido'=>"Santos",     'lugar'=>"Gijon",  'nombre'=>"Fran", 'foto'=>"001.jpg"],
+    //puedo dejarlo todo feo y desordenado:
+    ['apellido'=>"Santos",  'lugar'=>"Gijon",  'nombre'=>"Fran", 'foto'=>"001.jpg"],
+
     ['nombre'=>"Richard", 'apellido'=>"Beaugrand",   'lugar'=>"Gijon",   'foto'=>"002.jpg"],
     ['nombre'=>"Jess",    'apellido'=>"Garcia",      'lugar'=>"Gijon",   'foto'=>"003.jpg"],
     ['nombre'=>"Bea",     'apellido'=>"Perez",       'lugar'=>"Gijon",   'foto'=>"005.jpg"],
@@ -26,11 +34,18 @@ $alumnos2 = [
     ['nombre'=>"Dani",    'apellido'=>"Pérez",       'lugar'=>"Oviedo",  'foto'=>"010.jpg"],
     ['nombre'=>"Javi",    'apellido'=>"Martínez",    'lugar'=>"Oviedo",  'foto'=>"011.jpg"]
 ];
+
+
+
+/* ------------------------------------------------------------------------------------------- */
+/* PROGRAMACIÓN*/
+// De aquí para abajo no se andarián modificando valores
+
 // FOR
 
 for ($i = 0; $i<count($alumnos2); $i++) {
     echo "<li>";
-    echo '<img src="imagenes/'.$alumnos2[$i]['foto'].'">';
+    echo '<img src="'.$rutaImg.$alumnos2[$i]['foto'].'">';
 // aquí   <img src="imagenes/     001.jpg        ">
 
     echo "<h3>".$alumnos2[$i]['nombre']." ".$alumnos2[$i]['apellido']."</h3>";
