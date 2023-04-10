@@ -1,50 +1,79 @@
 :root{
-  /*main colors*/
-  --c1:coral;
-  --c2:lightcoral;
+    /*main colors*/
+    --c1:coral;
+    --c2:lightcoral;
+    
+    --l1:white;
+    --l2:#EEE;
+    --d1:black;
+    --d2:grey;
+    
+    --ff:sans-serif;
+    --mxw:960px;
+    --m:20px;
+  }
+  body{
+    font-family: var(--ff);
+    max-width:var(--mxw);
+    margin:0 auto;
+    padding:var(--m);
+    
+    box-sizing:border-box;
+  }
   
-  --l1:white;
-  --l2:#EEE;
-  --d1:black;
-  --d2:grey;
+  a{ text-decoration:none}
   
-  --ff:sans-serif;
-  --mxw:960px;
-  --m:20px;
-}
-body{
-  font-family: var(--ff);
-  max-width:var(--mxw);
-  margin:0 auto;
-  padding:var(--m);
+  p{}
   
-  box-sizing:border-box;
+  h1,h2,h3,h4,h5,h6{}
+  h1{}
+  h2{}
+  h3{}
+  h4{}
+  h5{}
+  h6{}
+  
+  
+  header, main, footer{}
+  header{}
+  main{}
+  footer{
+    padding: var(--m);
+    text-align: center;
+  }
+  
+  
+  nav ul,
+  .grid,
+.flex{ padding-left: 0; list-style:none;}
+
+.flex{ display: flex; flex-wrap: wrap; gap:8px}
+.grid{
+  display:grid;
+grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
+  gap:1em;}
+  
+  
+  
+   li{ background: #EEE; border-radius: var(--m); text-align:center; padding:var(--m)}
+   li{ display:flex; flex-direction:column; align-items:center;}
+   li i{ display:block; clear:both; font-size:5rem;}
+  img{max-width:100%}
+  
+  
+  
+  
+  a i{ padding: 8px;}
+
+li, a, li a, li a i{
+  transition:0.2s;
 }
 
-a{ text-decoration:none}
-
-p{}
-
-h1,h2,h3,h4,h5,h6{}
-h1{}
-h2{}
-h3{}
-h4{}
-h5{}
-h6{}
-
-
-header, main, footer{}
-header{}
-main{}
-footer{
-  padding: var(--m);
-  text-align: center;
+li a{ color:var(--c2);}
+li:hover{
+  background:var(--c2);
 }
 
-
-nav ul,
-.flex{ padding-left: 0; list-style:none; display: flex;}
-
-
-img{max-width:100%}
+li:hover a{
+  color:var(--d1)
+}
