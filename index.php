@@ -24,8 +24,8 @@ echo '<p class="ruta">'.$dir.'</p>';
 ?>
 
 
-
-<ul class="grid">
+<button onclick="cambiarVista()">Cambiar Vista</button>
+<ul class="grid" id="archivos">
 
 <?php
 // var_dump($archivos);
@@ -59,6 +59,7 @@ foreach($archivos as $archivo){
 ?>
   
 </ul>
+<script src="script.js"></script>
 
 </body>
 </html>

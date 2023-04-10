@@ -1,79 +1,93 @@
 :root{
-    /*main colors*/
-    --c1:coral;
-    --c2:lightcoral;
-    
-    --l1:white;
-    --l2:#EEE;
-    --d1:black;
-    --d2:grey;
-    
-    --ff:sans-serif;
-    --mxw:960px;
-    --m:20px;
-  }
-  body{
-    font-family: var(--ff);
-    max-width:var(--mxw);
-    margin:0 auto;
-    padding:var(--m);
-    
-    box-sizing:border-box;
-  }
+  /*main colors*/
+  --c1:coral;
+  --c2:lightcoral;
   
-  a{ text-decoration:none}
+  --l1:white;
+  --l2:#EEE;
+  --d1:black;
+  --d2:grey;
   
-  p{}
+  --ff:sans-serif;
+  --mxw:960px;
+  --m:20px;
+}
+body{
+  font-family: var(--ff);
+  max-width:var(--mxw);
+  margin:0 auto;
+  padding:var(--m);
   
-  h1,h2,h3,h4,h5,h6{}
-  h1{}
-  h2{}
-  h3{}
-  h4{}
-  h5{}
-  h6{}
-  
-  
-  header, main, footer{}
-  header{}
-  main{}
-  footer{
-    padding: var(--m);
-    text-align: center;
-  }
-  
-  
-  nav ul,
-  .grid,
+  box-sizing:border-box;
+}
+
+a{ text-decoration:none}
+
+p{}
+
+h1,h2,h3,h4,h5,h6{}
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+
+
+header, main, footer{}
+header{}
+main{}
+footer{
+  padding: var(--m);
+  text-align: center;
+}
+
+
+nav ul,
+.grid,
 .flex{ padding-left: 0; list-style:none;}
 
 .flex{ display: flex; flex-wrap: wrap; gap:8px}
 .grid{
-  display:grid;
+display:grid;
 grid-template-columns: repeat( auto-fit, minmax(100px, 1fr) );
-  gap:1em;}
-  
-  
-  
-   li{ background: #EEE; border-radius: var(--m); text-align:center; padding:var(--m)}
-   li{ display:flex; flex-direction:column; align-items:center;}
-   li i{ display:block; clear:both; font-size:5rem;}
-  img{max-width:100%}
-  
-  
-  
-  
-  a i{ padding: 8px;}
+gap:1em;}
+
+
+
+ li{ background: #EEE; border-radius: var(--m); text-align:center; padding:var(--m)}
+ li{ display:flex; flex-direction:column; align-items:center;}
+ li i{ display:block; clear:both; font-size:5rem;}
+img{max-width:100%}
+
+
+
+
+a i{ padding: 8px;}
 
 li, a, li a, li a i{
-  transition:0.2s;
+transition:0.2s;
 }
 
 li a{ color:var(--c2);}
 li:hover{
-  background:var(--c2);
+background:var(--c2);
 }
 
 li:hover a{
-  color:var(--d1)
+color:var(--d1)
 }
+
+
+/* Vista tipo lista */
+
+.grid.lista{
+grid-template-columns:1fr;
+}
+
+.grid.lista li{ flex-direction: row; padding:4px; background:none; border:#EEE solid 2px; border-radius:30px;}
+
+.grid.lista i{ font-size:20px; background:var(--c2); border-radius:50%; color:var(--d1); margin-right:10px;}.grid.lista i{ font-size:20px; background:var(--c2); border-radius:50%; color:var(--d1); margin-right:10px;}
+.grid.lista a{ color:var(--d1)}
+
+.grid.lista li:hover{  background:#EEE}
