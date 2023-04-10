@@ -16,7 +16,7 @@
 <?php
 // aquí comienza PHP  -------------------
 
-$dir ='PHP/';
+$dir ='./';
 $archivos=scandir($dir);
 $excluir = array('.', '..', '.git','.gitattributes','README.md', 'index.php'); // Array con los nombres de los archivos a excluir
 
