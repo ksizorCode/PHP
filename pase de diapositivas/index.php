@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
 <body>
 
@@ -57,8 +57,11 @@ que luego vamos a capturar por PHP y con el que vamos a trabajar --->
 <?php 
 
 for($i=0; $i<count($fotos); $i++){
+    global $imagen; 
+    if($imagen==$i){ $miclass='current';}
+    else{$miclass="";}
 
-    echo '<a href="index.php?diapo='.$i.'">'.($i+1).'</a>';
+    echo '<a class="btn '.$miclass.'" href="index.php?diapo='.$i.'">'.($i+1).'</a>';
 }
 ?>
 <br>
