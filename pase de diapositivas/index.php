@@ -11,37 +11,42 @@
 
 
 <?php 
-
-
-// variable almacena el nombre de la carpeta que contiene las imágenes
-$rutaImg='img';
-
-// array que recoje todas las fotos con las que voy a trabajar
+//array que almacena el nombre de los archivos
 $fotos =['a.jpg', 'b.jpg', 'c.jpg', 'd.jpg'];
 
-// variable almacena un número aleatorio entre 0 y 3
-$aleatorio = rand(0,count($fotos)-1);
-echo '<!--'.$aleatorio.'-->';
-// variable que almacena la diapositiva que mostrará (elemento en el array)
-$diapo=$aleatorio;
+//si GET'diapo' existe...
+if(isset($_GET['diapo'])){
+    // igualamos su valor al de la variable $imagen
+    $imagen = $_GET['diapo'];
+}
+// y si no (existe)
+else{
+    // me igualas la variable $imagen a un valor aleatorio entre 0
+    // y el número máximo de elementos que tiene el array $fotos -1
+    $imagen=rand(0,count($fotos)-1);
+}
 
-//variable que almacena el nombre de la ruta de la imagen que voy a cargar ahora
-$imagenActual = $rutaImg.'/'.$fotos[$diapo];
-
-//Reduciendo el código anterior a lo mínimo:
-// $fotos =['a', 'b', 'c', 'd'];
-// $imagenActual = 'img/'.$fotos[rand(0,count($fotos)-1)].'.jpg';
-
+//variable igual a 'img/' más un elemento del array con los archivos
+$imagenActual = 'img/'.$fotos[$imagen];
 ?>
 
+<!-- Links a las diferentes opciones donde la URL del link contiene
+referencias al método GET donde diapo=0 almacena el valor
+que luego vamos a capturar por PHP y con el que vamos a trabajar --->
+    <a href="index.php?diapo=0">Castillo China</a>
+    <a href="index.php?diapo=1">Castillo Paris</a>
+    <a href="index.php?diapo=2">Calle</a>
+    <a href="index.php?diapo=3">Noria</a>
+    <a href="index.php">Aleatoria</a>
+
+    <!--
+    Se carga via src gracias al php
+    la ruta que previamente hemos generado
+    en el códido anterior de PHP.
+     "img/a.jpg" (por ejemplo)
+    -->
     <img src="<?php echo $imagenActual;?>" alt="">
-    <a href="#">Siguiente</a>
 
-
-
-<script>
-console.log(<?php echo $aleatorio;?>);
-</script>
-
+  
 </body>
 </html>
