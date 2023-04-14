@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div id="demo"></div>
+
+    <img src="img/kid.jpg" alt="" usemap="#image_map">
+<map name="image_map">
+  <area alt="" title="" href="#" coords="99,130,80" shape="circle" onmouseover="cargar('cabeza')">
+  <area alt="" title="" href="#" coords="77,212,135,316" shape="rect" onmouseover="cargar('cuerpo')">
+  <area alt="" title="" href="#" coords="138,227 137,271 170,321 209,290 209,290 " shape="polygon" onmouseover="cargar('brazo')">
+  <area alt="" title="" href="" coords="107,364 " shape="polygon" onmouseover="cargar('pierna')">
+  <area alt="" title="" href="#" coords="122,386 125,426 169,426 146,400 140,329 104,328 " shape="polygon" onmouseover="cargar('pierna')">
+</map>
+
+
+<script>
+    
+    function cargar(cosa){
+
+        document.getElementById('demo').innerHTML="Has seleccionado la "+cosa;
+    }
+
+</script>
+    
+</body>
+</html>

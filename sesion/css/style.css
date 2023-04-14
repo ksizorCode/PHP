@@ -1,0 +1,33 @@
+body{
+    background:grey;
+    font-family: sans-serif;
+    max-width: 560px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+/* botones */
+a{
+    text-decoration:none;
+    color:aquamarine;
+    padding:10px;
+    border-radius:20px;
+    border:aquamarine 1px solid;
+    display: inline-block;
+    margin: 10px 2px;
+}
+
+a:hover{
+    background:aquamarine;
+    color:white;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    text-align: center;
+}
