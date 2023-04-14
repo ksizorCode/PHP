@@ -208,7 +208,7 @@ fieldset legend{
     border: white 1px solid !important;
 }
 
-
+/* focus */
 :focus,
 a:hover{
     border:white 2px solid;
@@ -218,3 +218,4 @@ scale:1.1;
 box-shadow: 2px 2px 8px rgba(0,0,0,.3);
 transition:.3s;
     }
+
