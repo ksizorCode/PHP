@@ -1,54 +1,35 @@
-<?php
-// Array animales
+<?php include 'cachinos/header.php'; ?>
 
-$animales=[
+    <h1>Adopta tu animal favorito</h1>
 
- ["nombre"=>'Perro'   ,"raza"=>'Labrador' ,"comida"=>'omnívoro',    'img'=>'perro.jpg', 'habitad'=>'Domestico'],
- ["nombre"=>'Gato'    ,"raza"=>'Siames'   ,"comida"=>'omnívoro',    'img'=>'gato.jpg', 'habitad'=>'Domestico'],
- ["nombre"=>'Conejo'  ,"raza"=>'Enano'    ,"comida"=>'hervívoro',   'img'=>'conejo.jpg', 'habitad'=>'Tol mundo'],
- ["nombre"=>'Pato'    ,"raza"=>'Howard'   ,"comida"=>'hervívoro',   'img'=>'pato.jpg', 'habitad'=>'Asturies'],
- ["nombre"=>'Tigre'   ,"raza"=>'Bengala'  ,"comida"=>'carnívoro',   'img'=>'tigre.jpg', 'habitad'=>'Malasia'],
- ["nombre"=>'Elefante',"raza"=>'Africano' ,"comida"=>'hervívoro',   'img'=>'elefante.jpg', 'habitad'=>'África']
+    <?php
 
-];
+      //leer contenido de json
+      $datosjson= file_get_contents("animales.json");
+  
+      //convertir json en array php
+      $animales= json_decode($datosjson,true);
 
-//convertir array a json
-$animalesJSON = json_encode($animales);
+      //mostrar contenido de contenedor
+      //   var_dump($animales);
 
-//guardar el json en una archivo
-file_put_contents("animales.json",$animalesJSON);
+    echo '<ul class="tarjeta">';   
+      //recorrer el array y mostrar datos
+      foreach($animales as $animal){
+        echo '<li>';
+        echo '<img src="img/'.$animal['img'].'" alt="'.$animal['nombre'].'">';
+        echo '<h2>'.$animal['nombre'].'</h2>';
+        echo '<ul>';
+            echo '<li>'.$animal['raza'].'</li>';
+            echo '<li>'.$animal['comida'].'</li>';
+            echo '<li>'.$animal['habitad'].'</li>';
+            echo '<a href="ficha.php?animal='.$animal['nombre'].'">Adopta un "'.$animal['nombre'].'</a>';
+        echo '</ul>';
+        echo '</li>';
+      }
+      echo '</ul>';
+       
+    
+    ?>
 
-
-
-
-
-
-
-
-?>
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-</head>
-<body>
-
-    <h1>Primer Json</h1>
-    <h2>Json guardado correctamente</h2>
-
-    <a href="leerjson.php">Abrir Lector del JSON</a>
-
-
-</body>
-
-</html>
-
-
+<?php include 'cachinos/footer.php'; ?>

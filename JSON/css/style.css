@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 
+*{
+    box-sizing:border-box;
+}
+
+:root{
+    --c:burlywood;
+}
+
 body{
-    background: burlywood;
+    background: var(--c);
     color:white;
     margin:0 auto;
     padding:10px;
@@ -12,7 +20,11 @@ ul{
     display:flex;
     flex-wrap:wrap;
     list-style:none;
-    gap:30px;
+    gap:8px;
+
+    padding-left:0;
+    justify-content:center;
+    
 
 }
 
@@ -56,14 +68,47 @@ h1,h2{
     text-align: center;
 }
 
-ul li a{
-    background:violet;
-    padding:4px;
+a{
+    background:white;
+    color:var(--c);
+    font-weight:bold;
+    padding:12px;
+    min-width: 99px;
+    text-align:center;
     border-radius:20px;
     text-decoration:none;
-    margin: 10px 0; 
+    margin: 10px 0;
     display:inline-block;
-    padding:4px 8px;
+}
+
+
+.ficha{
+    max-width:320px;
+    margin:20px auto;
+}
+
+.ficha img{ width:100%;}
+
+.ficha a{
+    width:100%;
+}
+
+.ficha .tablilla{
+    border-radius:20px;
+    border:solid 1px white;
+}
+
+.ficha .tablilla p{
+    padding:0px 20px 10px 20px;
+}
+
+
+.ficha .tablilla p:not(:last-child){
+    border-bottom:solid 1px white;
+}
+
+.ficha .tablilla p:last-child{
+    padding-bottom:0px;
 }
 
 
