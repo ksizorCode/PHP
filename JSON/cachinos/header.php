@@ -19,6 +19,9 @@
           <a href="ficha.php">Ficha</a>
         </li>
         <li>
+          <a href="insertar.php">Insertar</a>
+        </li>
+        <li>
           <a href="animales.json">JSON</a>
         </li>
         <li>
