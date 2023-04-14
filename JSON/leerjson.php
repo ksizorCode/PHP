@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>Leer Json</h1>
+    <h1>Adopta tu animal favorito</h1>
 
     <?php
 
@@ -20,7 +21,7 @@
       //mostrar contenido de contenedor
       //   var_dump($animales);
 
-    echo '<ul>';   
+    echo '<ul class="tarjeta">';   
       //recorrer el array y mostrar datos
       foreach($animales as $animal){
         echo '<li>';
@@ -30,10 +31,14 @@
             echo '<li>'.$animal['raza'].'</li>';
             echo '<li>'.$animal['comida'].'</li>';
             echo '<li>'.$animal['habitad'].'</li>';
+            echo '<a href="adopta.php">Adopta un "'.$animal['nombre'].'</a>';
         echo '</ul>';
         echo '</li>';
       }
       echo '</ul>';
+      
+
+
 
 
 
