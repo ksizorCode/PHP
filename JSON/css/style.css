@@ -209,10 +209,12 @@ fieldset legend{
 }
 
 
-:focus{
+:focus,
+a:hover{
     border:white 2px solid;
 outline:white 1px solid;
 font-weight:bold;
 scale:1.1;
-box-shadow: 2px 2px 8px rgba(0,0,0,.3)
+box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+transition:.3s;
     }
