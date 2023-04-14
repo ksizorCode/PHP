@@ -30,10 +30,15 @@ ul{
 
 }
 
-ul .tarjeta{
+ul.tarjetas{
     margin-bottom:20px;
-    gap:20px;
-    
+    gap: 14px;
+}
+
+ul.tarjetas>li{
+  background:rgba(255,255,255,.3);
+  border-radius:20px;
+  padding:20px;
 }
 
 ul li ul {
@@ -43,13 +48,10 @@ ul li ul {
     
 }
 
-ul li ul li{
-    list-style:disc;
-}
 
 img {
-    width:250px;
-    height:250px;
+    width:200px;
+    aspect-ratio:1/1;
     object-fit:cover;
     border-radius: 20px;
     
@@ -59,16 +61,20 @@ img {
 
 
 img{
-  outline: 120px solid rgba(255,255,255,.3);
+  outline: 94px solid rgba(255,255,255,.3);
   outline-offset:-125px;
   filter: grayscale(0.5);
   transition:0.3s;
 }
 
-img:hover{
-  outline: 8px solid rgba(0,0,0,.3);
+img:hover,
+ul.tarjetas li:hover img{
+  outline: 4px solid rgba(255,255,255,.8);
   outline-offset:4px; 
   filter: grayscale(0);
+
+  box-shadow: 2px 2px 18px rgba(0,0,0,.8);
+  scale:1.1;
 }
 
 
@@ -89,6 +95,8 @@ h1,h2{
     text-align: center;
 }
 
+
+
 a,
 input[type="submit"],
 input[type="reset"]
@@ -97,7 +105,7 @@ input[type="reset"]
     color:var(--c);
     font-weight:bold;
     padding:12px;
-    min-width: 99px;
+    min-width: 198px;
     text-align:center;
     border-radius:20px;
     text-decoration:none;
@@ -106,6 +114,18 @@ input[type="reset"]
     border:none;
 }
 
+header a{
+  min-width:80px;
+  background:none;
+  color:white;
+  border:white solid 2px;
+}
+
+header a:hover{
+  background:white;
+  color:var(--c);
+  border:white solid 2px;
+}
 
 .ficha{
     max-width:320px;
@@ -118,21 +138,30 @@ input[type="reset"]
     width:100%;
 }
 
-.ficha .tablilla{
+.ficha .tablilla,
+ul.tarjetas ul{
     border-radius:20px;
     border:solid 1px white;
 }
 
-.ficha .tablilla p{
+.ficha .tablilla p,
+ul.tarjetas ul li{
     padding:0px 20px 10px 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 
-.ficha .tablilla p:not(:last-child){
+.ficha .tablilla p:not(:last-child),
+ul.tarjetas ul li:not(:last-child){
     border-bottom:solid 1px white;
 }
 
-.ficha .tablilla p:last-child{
+.ficha .tablilla p:last-child,
+ul.tarjetas ul li:last-child{
     padding-bottom:0px;
 }
 

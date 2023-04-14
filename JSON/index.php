@@ -13,7 +13,7 @@
       //mostrar contenido de contenedor
       //   var_dump($animales);
 
-    echo '<ul class="tarjeta">';   
+    echo '<ul class="tarjetas">';   
       //recorrer el array y mostrar datos
       foreach($animales as $animal){
         echo '<li>';
@@ -23,8 +23,8 @@
             echo '<li>'.$animal['raza'].'</li>';
             echo '<li>'.$animal['comida'].'</li>';
             echo '<li>'.$animal['habitad'].'</li>';
+            echo '</ul>';
             echo '<a href="ficha.php?animal='.$animal['nombre'].'">Adopta un "'.$animal['nombre'].'</a>';
-        echo '</ul>';
         echo '</li>';
       }
       echo '</ul>';

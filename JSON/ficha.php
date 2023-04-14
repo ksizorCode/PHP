@@ -53,7 +53,7 @@
     
     ?>
     <a href="adopta.php">Adoptar</a>
-<a href="index.php">Volver a Lista</a>
+<a href="index.php" class="desactivado">Volver a Lista</a>
 
 </div>
 
