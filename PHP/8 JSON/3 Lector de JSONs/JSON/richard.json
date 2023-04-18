@@ -1,0 +1,136 @@
+{
+    "coches": [
+        {
+            "marca": "Toyota",
+            "modelo": "Corolla",
+            "anio": 2019,
+            "color": "Rojo",
+            "caracteristicas": [
+                "Aire acondicionado",
+                "Llantas de aleaci\u00f3n",
+                "C\u00e1mara de retroceso"
+            ],
+            "imagen": "https://www.diariomotor.com/imagenes/picscache/750x/sema-toyota-corolla-2019-p_750x.jpg"
+        },
+        {
+            "marca": "Honda",
+            "modelo": "Civic",
+            "anio": 2020,
+            "color": "Azul",
+            "caracteristicas": [
+                "Asientos de cuero",
+                "Sistema de navegaci\u00f3n",
+                "Sunroof"
+            ],
+            "imagen": "https://hackercar.com/wp-content/uploads/2020/12/honda-civic-type-r-2020-1.jpg"
+        },
+        {
+            "marca": "Chevrolet",
+            "modelo": "Camaro",
+            "anio": 2022,
+            "color": "amarillo",
+            "caracteristicas": [
+              "Motor V8 de alto rendimiento",
+              "Transmisión automática de 10 velocidades",
+              "Sistema de escape deportivo",
+              "Sistema de sonido premium"
+            ],
+            "imagen": "https://hips.hearstapps.com/es.h-cdn.co/cades/contenidos/10391/ckiecv9xeaaezdf.jpg_20large.jpg"
+          },
+          {
+            "marca": "Ford",
+            "modelo": "Mustang",
+            "anio": 2023,
+            "color": "negro",
+            "caracteristicas": [
+              "Motor EcoBoost de 4 cilindros",
+              "Transmisión manual de 6 velocidades",
+              "Asientos delanteros con calefacción",
+              "Techo panorámico"
+            ],
+            "imagen": "https://www.elcarrocolombiano.com/wp-content/uploads/2023/01/20-01-2023-PORTADA-Ford-Mustang-Centennial-Edition-min.jpg"
+          },
+          {
+            "marca": "Nissan",
+            "modelo": "Altima",
+            "anio": 2022,
+            "color": "gris",
+            "caracteristicas": [
+              "Motor de 4 cilindros con tecnología de ahorro de combustible",
+              "Transmisión Xtronic CVT",
+              "Sistema de infoentretenimiento con pantalla táctil",
+              "Control de crucero inteligente"
+            ],
+            "imagen": "https://img.motoryracing.com/noticias/portada/34000/34586-n.jpg"
+          },
+          {
+            "marca": "BMW",
+            "modelo": "Serie 3",
+            "anio": 2023,
+            "color": "blanco",
+            "caracteristicas": [
+              "Motor turbo de 6 cilindros en línea",
+              "Transmisión automática de 8 velocidades",
+              "Sistema de tracción en las cuatro ruedas",
+              "Asientos deportivos con ajuste eléctrico"
+            ],
+            "imagen": "https://imagenes.km77.com/fotos/bbtcontent/clippingnew/KM7KPH20220518_0001/full-original.jpg"
+          },
+          {
+            "marca": "Mercedes-Benz",
+            "modelo": "Clase C",
+            "anio": 2022,
+            "color": "plateado",
+            "caracteristicas": [
+              "Motor turbo de 4 cilindros",
+              "Transmisión automática de 9 velocidades",
+              "Sistema de asistencia al conductor",
+              "Sistema de sonido Burmester"
+            ],
+            "imagen": "https://www.autonocion.com/wp-content/uploads/2022/07/Mercedes-Benz-Clase-C-de-BRABUS-25.jpg"
+          },
+          {
+            "marca": "Chevrolet",
+            "modelo": "Camaro",
+            "anio": 2023,
+            "color": "negro",
+            "caracteristicas": [
+              "Transmisión automática",
+              "Motor de 6.2 litros",
+              "Paquete de rendimiento",
+              "Asientos deportivos"
+            ],
+            "imagen": "https://c8.alamy.com/compes/2g14fc2/palm-beach-florida-ee-uu-21-de-marzo-de-2021-coche-de-lujo-chevrolet-camaro-negro-2g14fc2.jpg"
+          },
+          {
+            "marca": "Volkswagen",
+            "modelo": "Golf GTI",
+            "anio": 2022,
+            "color": "Blanco",
+            "caracteristicas": [
+              "Transmisión manual",
+              "Motor de 2.0 litros",
+              "Sistema de sonido premium",
+              "Techo corredizo panorámico"
+            ],
+            "imagen": "https://www.autonocion.com/wp-content/uploads/2022/01/Prueba-Volkswagen-Golf-R-320-CV-DSG-4Motion-2022-10-1130x754.jpg"
+          },
+          {
+            "marca": "Mercedes-Benz",
+            "modelo": "Amg gt",
+            "anio": 2023,
+            "color": "Gris",
+            "caracteristicas": [
+              "Transmisión automática",
+              "Motor de 4.0 litros V8 biturbo ",
+              "Sistema de navegación",
+              "Asientos de cuero con calefacción"
+            ],
+            "imagen": "https://e00-marca.uecdn.es/assets/multimedia/imagenes/2022/03/24/16481238734497.jpg"
+          }
+    ]
+}           
+              
+                
+          
+    
