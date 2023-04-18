@@ -63,3 +63,66 @@ foreach($archivos as $archivo){
 
 </body>
 </html>
+
+
+
+
+
+
+
+<!---
+<?php 
+/*
+
+<?php
+$dir ='./';
+if(isset($_GET['ruta'])){
+  $dir = $_GET['ruta'];
+}
+$archivos=scandir($dir);
+$excluir = array('.', '..', '.git','.gitattributes','README.md', 'index.php');
+
+$ruta_actual = '';
+$ruta_elementos = explode('/', $dir);
+foreach($ruta_elementos as $elemento){
+  if(!empty($elemento)){
+    $ruta_actual .= '/' . $elemento;
+    echo '<a href="?ruta='.$ruta_actual.'">'.$elemento.'</a> / ';
+  }
+}
+?>
+
+<button onclick="cambiarVista()">Cambiar Vista</button>
+<ul class="grid" id="archivos">
+
+<?php
+foreach($archivos as $archivo){
+  if (!in_array($archivo, $excluir)) {
+    $es_carpeta = is_dir($dir. '/' . $archivo);
+    if($es_carpeta){
+      $icono ="far fa-folder";
+      $ruta = $dir.'/'.$archivo;
+      echo '<li>';
+      echo '<a href="?ruta='.$ruta.'">';
+      echo '<i class="'.$icono.'"></i>'.$archivo;
+      echo '</a>';
+      echo '</li>';
+    }
+    else{
+      $icono="far fa-file-alt";
+      echo '<li>';
+      echo '<a href="'.$dir.'/'.$archivo.'">';
+      echo '<i class="'.$icono.'"></i>'.$archivo;
+      echo '</a>';
+      echo '</li>';
+    }
+  }
+}
+?>
+
+
+
+*/
+
+?>
+-->
