@@ -38,15 +38,19 @@ for($i=1;$i<count($ruta_elementos);$i++){
 foreach($archivos as $archivo){
   if (!in_array($archivo, $excluir)) {
     $es_carpeta = is_dir($dir. '/' . $archivo);
+    // SI ES CARPETA
     if($es_carpeta){
       $ruta = $dir.'/'.$archivo;
       echo '<li class="folder">';
       echo '<a href="?ruta='.$ruta.'">';
-      echo '<i class="far fa-folder"></i>'.$archivo;
+      echo '<i class="far fa-folder"></i>';
+      echo '<span>'.$archivo.'</span>';
       echo '</a>';
       echo '</li>';
     }
+        // SI ES ARCHIVO
     else{
+    
       if (in_array($archivo, $destacado)) {
         echo '<li class="file destacado">';
       }
@@ -54,7 +58,15 @@ foreach($archivos as $archivo){
       echo '<li class="file">';
     }
       echo '<a href="'.$dir.'/'.$archivo.'">';
-      echo '<i class="far fa-file-alt"></i>'.$archivo;
+      $extension= pathinfo($archivo, PATHINFO_EXTENSION);
+      if(in_array($extension, array('jpg','jpeg','png','gif','webp'))){
+        echo '<img src="'.$dir.'/'.$archivo.'" alt="'.$archivo.'">';
+
+      }
+      else{
+      echo '<i class="far fa-file-alt"></i>';;
+      }
+      echo '<span>'.$archivo.'</span>';
       echo '</a>';
       echo '</li>';
     }
