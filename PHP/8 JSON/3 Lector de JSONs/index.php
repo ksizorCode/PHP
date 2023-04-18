@@ -63,9 +63,9 @@ echo "</select>";
     //mostrar datos en bonito (recorrer Array)
     foreach($datos as $ficha){
         echo '<li>';
+        echo '<img src="'.$ficha['img'].'">';
         echo '<h2>'.$ficha['nombre'].'</h2>';
         echo '<p>'.$ficha['texto'].'</p>';
-        echo '<img src="'.$ficha['img'].'">';
         echo '<p><span>Year:</span>'.$ficha['year'].'</p>';
         echo '<p><span>Dato1:</span>'.$ficha['dato1'].'</p>';
         echo '<p><span>Dato2:</span>'.$ficha['dato2'].'</p>';

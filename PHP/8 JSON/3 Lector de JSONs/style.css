@@ -25,10 +25,11 @@ ul{
 ul li{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     flex-wrap: nowrap;
     align-content: stretch;
     align-items: baseline;
+    gap: 8px;
 }
 
 
