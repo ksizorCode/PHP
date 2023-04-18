@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Mi lector de JSONs</h1>
-
 
     <?php
 // 0. LEE EL CÓDIGO POR BLOQUES DE ABAJOPARA ARRIBA: 3, 2, 1
@@ -35,6 +33,7 @@ $archivos=scandir($carpeta); // guardamos el array con el contenido de carpeta
 //los dos primeros elementos del array son . y .. los borro:
 $lista_archivos = array_slice($archivos,2);
 ?>
+<h1>Mi lector de JSONs: <a href="<?php echo $carpeta.$archivoJSON; ?>"><span><?php echo $archivoJSON; ?></span></a></h1>
 
 <!-- Dibujamos Select -->
 <label for="archivoJSON">Selecciona un JSON a cargar como datos: </label>
@@ -48,7 +47,6 @@ echo '<option value="'.$archivo.'">'.$archivo.'</option>';
 }
 
 echo "</select>";
-echo '<input type="submit" value="cargar datos">';
 
 
 
@@ -68,9 +66,9 @@ echo '<input type="submit" value="cargar datos">';
         echo '<h2>'.$ficha['nombre'].'</h2>';
         echo '<p>'.$ficha['texto'].'</p>';
         echo '<img src="'.$ficha['img'].'">';
-        echo '<p>'.$ficha['year'].'</p>';
-        echo '<p>'.$ficha['dato1'].'</p>';
-        echo '<p>'.$ficha['dato2'].'</p>';
+        echo '<p><span>Year:</span>'.$ficha['year'].'</p>';
+        echo '<p><span>Dato1:</span>'.$ficha['dato1'].'</p>';
+        echo '<p><span>Dato2:</span>'.$ficha['dato2'].'</p>';
         echo '</li>';
     }
     echo '</ul>';
