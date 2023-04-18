@@ -5,9 +5,11 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head><body>
+  <header>
   <h1>Mi Listado de archivos PHP</h1>
+  <nav>
   <button onclick="cambiarVista()">Cambiar Vista</button>
-
+  
 <?php
 // aquí comienza PHP  -------------------
 // Array con los nombres de los archivos a excluir
@@ -21,16 +23,28 @@ if(isset($_GET['ruta'])){
 }
 $archivos=scandir($dir);
 
-$ruta_actual = '';
-$ruta_elementos = explode('/', $dir);
-echo '<a href="?ruta=./"> INICIO </a> / ';
-for($i=1;$i<count($ruta_elementos);$i++){
-  if(!empty($ruta_elementos[$i])){
-    $ruta_actual .= '/' . $ruta_elementos[$i];
-    echo '<a href="?ruta=.'.$ruta_actual.'">'.$ruta_elementos[$i].'</a> / ';
+function migasPan(){
+  global $dir;
+  $ruta_actual = '';
+  echo '<ul class="migas">';
+  $ruta_elementos = explode('/', $dir);
+  echo '<li><a href="?ruta=./"> INICIO </a> / </li>';
+  for($i=1;$i<count($ruta_elementos);$i++){
+    if(!empty($ruta_elementos[$i])){
+      $ruta_actual .= '/' . $ruta_elementos[$i];
+      echo '<li><a href="?ruta=.'.$ruta_actual.'">'.$ruta_elementos[$i].'</a> / </li>';
+    }
   }
+  echo '</ul>';
 }
+
+//Mostrar Migas de Pan 
+migasPan();
 ?>
+</nav>
+</header>
+
+<main>
 
 <ul class="grid" id="archivos">
 
@@ -77,6 +91,16 @@ foreach($archivos as $archivo){
 ?>
   
 </ul>
+</main>
+
+<footer>
+  <?php
+  //Mostrar Migas de Pan 
+migasPan(); 
+  ?>
+<p>Navigation System by Miguel Esteban <? echo date('Y');?></p>
+</footer>
+
 <script src="script.js"></script>
 
 </body>
