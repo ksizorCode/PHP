@@ -17,6 +17,11 @@ $excluir = array('.', '..', '.git','.gitattributes','.DS_Store','Thumbs.db','REA
 $destacado =array('index.html','index.php');
 // Definimos la ruta 
 
+if(isset($_GET['$dir'])){
+  $_GET['$dir']= $dir
+}
+
+
 $dir ='./';
 if(isset($_GET['ruta'])){
   $dir = $_GET['ruta'];
