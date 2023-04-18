@@ -1,61 +1,67 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
+<!DOCTYPE html><html><head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Listado de Arhivos</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
-  
   <link rel="stylesheet" href="style.css">
-</head>
-<body>
+</head><body>
   <h1>Mi Listado de archivos PHP</h1>
-
+  <button onclick="cambiarVista()">Cambiar Vista</button>
 
 <?php
 // aquí comienza PHP  -------------------
+// Array con los nombres de los archivos a excluir
+$excluir = array('.', '..', '.git','.gitattributes','.DS_Store','Thumbs.db','README.md'); 
+$destacado =array('index.html','index.php');
+// Definimos la ruta 
 
 $dir ='./';
+if(isset($_GET['ruta'])){
+  $dir = $_GET['ruta'];
+}
 $archivos=scandir($dir);
-$excluir = array('.', '..', '.git','.gitattributes','README.md', 'index.php'); // Array con los nombres de los archivos a excluir
 
-echo '<p class="ruta">'.$dir.'</p>';
+$ruta_actual = '';
+$ruta_elementos = explode('/', $dir);
+echo '<a href="?ruta=./"> INICIO </a> / ';
+for($i=1;$i<count($ruta_elementos);$i++){
+  if(!empty($ruta_elementos[$i])){
+    $ruta_actual .= '/' . $ruta_elementos[$i];
+    echo '<a href="?ruta=.'.$ruta_actual.'">'.$ruta_elementos[$i].'</a> / ';
+  }
+}
 ?>
 
-
-<button onclick="cambiarVista()">Cambiar Vista</button>
 <ul class="grid" id="archivos">
 
 <?php
-// var_dump($archivos);
-
 foreach($archivos as $archivo){
-  //si los archivos no son los siguientes...
-  //if($archivo!='.' && $archivo!='..'){
   if (!in_array($archivo, $excluir)) {
-
-    // Determinar si el archivo es una carpeta o un archivo
     $es_carpeta = is_dir($dir. '/' . $archivo);
-    // Agregar un icono diferente según si es una carpeta o un archivo
     if($es_carpeta){
-      $icono ="far fa-folder";
+      $ruta = $dir.'/'.$archivo;
+      echo '<li class="folder">';
+      echo '<a href="?ruta='.$ruta.'">';
+      echo '<i class="far fa-folder"></i>'.$archivo;
+      echo '</a>';
+      echo '</li>';
     }
     else{
-      $icono="far fa-file-alt";
+      if (in_array($archivo, $destacado)) {
+        echo '<li class="file destacado">';
+      }
+      else{
+      echo '<li class="file">';
     }
-    //PHP MODERNO:(Reemplaza lo de arriba)
-    // $icono = $es_carpeta ? 'far fa-folder' : 'far fa-file-alt';
-    //fin del PHP MOderno
-        echo '<li>';
-        echo '<a href="'.$dir.'/'.$archivo.'">';
-        echo '<i class="'.$icono.'"></i>'.$archivo;
-        echo '</a>';
-        echo '</li>';
+      echo '<a href="'.$dir.'/'.$archivo.'">';
+      echo '<i class="far fa-file-alt"></i>'.$archivo;
+      echo '</a>';
+      echo '</li>';
+    }
+
+    
   }
 }
-
-// aquí acaba PHP -----------------------------
 ?>
   
 </ul>
@@ -70,59 +76,6 @@ foreach($archivos as $archivo){
 
 
 
-<!---
-<?php 
-/*
-
-<?php
-$dir ='./';
-if(isset($_GET['ruta'])){
-  $dir = $_GET['ruta'];
-}
-$archivos=scandir($dir);
-$excluir = array('.', '..', '.git','.gitattributes','README.md', 'index.php');
-
-$ruta_actual = '';
-$ruta_elementos = explode('/', $dir);
-foreach($ruta_elementos as $elemento){
-  if(!empty($elemento)){
-    $ruta_actual .= '/' . $elemento;
-    echo '<a href="?ruta='.$ruta_actual.'">'.$elemento.'</a> / ';
-  }
-}
-?>
-
-<button onclick="cambiarVista()">Cambiar Vista</button>
-<ul class="grid" id="archivos">
-
-<?php
-foreach($archivos as $archivo){
-  if (!in_array($archivo, $excluir)) {
-    $es_carpeta = is_dir($dir. '/' . $archivo);
-    if($es_carpeta){
-      $icono ="far fa-folder";
-      $ruta = $dir.'/'.$archivo;
-      echo '<li>';
-      echo '<a href="?ruta='.$ruta.'">';
-      echo '<i class="'.$icono.'"></i>'.$archivo;
-      echo '</a>';
-      echo '</li>';
-    }
-    else{
-      $icono="far fa-file-alt";
-      echo '<li>';
-      echo '<a href="'.$dir.'/'.$archivo.'">';
-      echo '<i class="'.$icono.'"></i>'.$archivo;
-      echo '</a>';
-      echo '</li>';
-    }
-  }
-}
-?>
 
 
 
-*/
-
-?>
--->
