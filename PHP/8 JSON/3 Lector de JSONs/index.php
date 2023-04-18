@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lector de JSON</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -55,7 +55,7 @@ echo "</select>";
     //$archivoJSON='datos.json';
 
     //importar el JSON de la carpeta "JSON/"
-    $miJSON = file_get_contents('JSON/'.$archivoJSON);
+    $miJSON = file_get_contents('JSONs/'.$archivoJSON);
 
     //convertir JSON a Array PHP
     $datos = json_decode($miJSON, true);
