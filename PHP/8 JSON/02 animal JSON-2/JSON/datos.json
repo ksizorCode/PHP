@@ -1,0 +1,107 @@
+[
+    {
+        "nombre": "Perro",
+        "raza": "Labrador",
+        "comida": "omnívoro",
+        "img": "perro.jpg",
+        "habitad": "Domestico"
+    },
+    {
+        "nombre": "Gato",
+        "raza": "Siames",
+        "comida": "omnívoro",
+        "img": "gato.jpg",
+        "habitad": "Domestico"
+    },
+    {
+        "nombre": "Conejo",
+        "raza": "Enano",
+        "comida": "hervívoro",
+        "img": "conejo.jpeg",
+        "habitad": "Tol mundo"
+    },
+    {
+        "nombre": "Pato",
+        "raza": "Howard",
+        "comida": "hervívoro",
+        "img": "pato.jpg",
+        "habitad": "Asturies"
+    },
+    {
+        "nombre": "Tigre",
+        "raza": "Bengala",
+        "comida": "carnívoro",
+        "img": "tigre.jpg",
+        "habitad": "Malasia"
+    },
+    {
+        "nombre": "Pangolín",
+        "raza": "Pangolín",
+        "comida": "hervívoro",
+        "img": "pangolin.jpg",
+        "habitad": "Asia"
+    },
+    {
+        "nombre": "Ballena",
+        "raza": "Ballena",
+        "comida": "placton",
+        "img": "ballena.jpeg",
+        "habitad": "Océanos"
+    },
+    {
+        "nombre": "Perezoso",
+        "raza": "Vago",
+        "comida": "hervívoro",
+        "img": "perezoso.jpg",
+        "habitad": "Arboleda"
+    },
+    {
+        "nombre": "Zariguella",
+        "raza": "Roedor",
+        "comida": "omnívoro",
+        "img": "zariguella.jpg",
+        "habitad": "Por ahí"
+    },
+    {
+        "nombre": "Elefante",
+        "raza": "Africano",
+        "comida": "hervívoro",
+        "img": "elefante.jpg",
+        "habitad": "África"
+    },
+    {
+        "nombre": "Pinguino",
+        "raza": "Roedor",
+        "comida": "omnívoro",
+        "img": "pinguino.jpg",
+        "habitad": "Por ahí"
+    },
+    {
+        "nombre": "Pez",
+        "raza": "Roedor",
+        "comida": "omnívoro",
+        "img": "pez.jpg",
+        "habitad": "Por ahí"
+    },
+    {
+        "nombre": "Tortuga",
+        "raza": "Roedor",
+        "comida": "omnívoro",
+        "img": "tortuga.jpg",
+        "habitad": "Por ahí"
+    },
+    {
+        "nombre": "Burro",
+        "raza": "Roedor",
+        "comida": "omnívoro",
+        "img": "burro.jpg",
+        "habitad": "Por ahí"
+    },
+    {
+        "nombre": "Foca",
+        "raza": "Roedor",
+        "comida": "omnívoro",
+        "img": "foca.jpg",
+        "habitad": "Por ahí"
+    }
+]
