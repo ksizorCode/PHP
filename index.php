@@ -102,7 +102,12 @@ migasPan();
 <p>Navigation System by Miguel Esteban <? echo date('Y');?></p>
 </footer>
 
-<script src="script.js"></script>
+<script>
+  function cambiarVista() {
+    var element = document.getElementById("archivos");
+    element.classList.toggle("lista");
+ }
+</script>
 
 </body>
 </html>

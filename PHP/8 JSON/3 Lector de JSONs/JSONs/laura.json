@@ -1,0 +1,82 @@
+[
+    {
+        "nombre": "El Se\u00f1or de los Anillos",
+        "img": "https:\/\/medios.lamarmota.es\/senor-de-los-anillos.jpeg",
+        "texto": "En la Tierra Media, el Se\u00f1or Oscuro Sauron forj\u00f3 los Grandes Anillos del Poder y cre\u00f3 uno con el poder de esclavizar a toda la Tierra Media. Frodo Bols\u00f3n es un hobbit al que su t\u00edo Bilbo hace portador del poderoso Anillo \u00danico con la misi\u00f3n de destruirlo. Acompa\u00f1ado de sus amigos, Frodo emprende un viaje hacia Mordor, el \u00fanico lugar donde el anillo puede ser destruido. Sin embargo, Sauron ordena la persecuci\u00f3n del grupo para recuperar el anillo y acabar con la Tierra Media.",
+        "year": "1955",
+        "dato1": "J.R.R. Tolkien",
+        "dato2": "Literatura de caballer\u00edas de alta fantas\u00eda y aventuras."
+    },
+    {
+        "nombre": "El Principito",
+        "img": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/1\/1c\/El_principito.jpg",
+        "texto": "La historia se centra en un peque\u00f1o pr\u00edncipe que realiza una traves\u00eda por el universo. En este viaje descubre la extra\u00f1a forma en que los adultos ven la vida y comprende el valor del amor y la amistad.",
+        "year": "1943",
+        "dato1": "Antoine de Saint-Exup\u00e9ry",
+        "dato2": "Literatura infantil con ficcion especulativa."
+    },
+    {
+        "nombre": "El Hobbit",
+        "img": "https:\/\/m.media-amazon.com\/images\/I\/51N1VLZCuZL._SY264_BO1,204,203,200_QL40_ML2_.jpg",
+        "texto": "El hobbit Bilbo Bols\u00f3n vive una vida tranquila hasta que el mago Gandalf aparece y le encomienda una misi\u00f3n: unirse a un grupo de enanos para recuperar un tesoro que les pertenece. El tesoro est\u00e1 guardado por un drag\u00f3n en el reino de Erebor, que antes pertenec\u00eda a los enanos. Durante el viaje, Bilbo y los enanos tendr\u00e1n que enfrentarse a orcos y otros peligros, como Gollum y un anillo de oro que tiene un poder extraordinario.",
+        "year": "1937",
+        "dato1": "J.R.R. Tolkien",
+        "dato2": "Literatura fant\u00e1stica y \u00e9pica infantil."
+    },
+    {
+        "nombre": "Diez negritos",
+        "img": "https:\/\/images.cdn2.buscalibre.com\/fit-in\/360x360\/e2\/2e\/e22e1cb2c0035205755bfa45b62cc7b1.jpg",
+        "texto": "Diez personas sin relaci\u00f3n alguna entre s\u00ed son reunidas en un misterioso islote de la costa inglesa por un tal Sr. Owen, propietario de una lujosa mansi\u00f3n a la par que perfecto desconocido para todos sus invitados. Tras la primera cena, y sin haber conocido a\u00fan a su anfitri\u00f3n, los diez comensales son acusados mediante una grabaci\u00f3n de haber cometido un crimen en el pasado.",
+        "year": "1939",
+        "dato1": "Agata Christie",
+        "dato2": "Literatura de misterio, suspenso y drama."
+    },
+    {
+        "nombre": "Las Cr\u00f3nicas de Narnia",
+        "img": "https:\/\/cdn.shopify.com\/s\/files\/1\/0044\/1309\/6047\/products\/9781400334780_590x590@2x.jpg?v=1679000081",
+        "texto": "Durante la Segunda Guerra Mundial, cuatro hermanos ingleses son enviados a una casa en el campo donde van a estar a salvo de los bombardeos. Un d\u00eda, Lucy, la hermana peque\u00f1a, descubre un armario que la transporta a un mundo m\u00e1gico llamado Narnia. Despu\u00e9s de volver, pronto vuelve a Narnia con sus hermanos, Peter, Edmund y Susan. All\u00ed, los cuatro se unir\u00e1n al le\u00f3n m\u00e1gico Aslan y luchar\u00e1n contra la Bruja Blanca.",
+        "year": "1950",
+        "dato1": "C.S.Lewis",
+        "dato2": "Literatura de fantas\u00eda y de aventuras."
+    },
+    {
+        "nombre": "El guardi\u00e1n entre el centeno",
+        "img": "https:\/\/m.media-amazon.com\/images\/I\/51GpkFTjBNL._SY264_BO1,204,203,200_QL40_ML2_.jpg",
+        "texto": "Las peripecias del adolescente Holden Cauldfiel en una Nueva York que se recupera de la guerra influyeron en sucesivas generaciones de todo el mundo. En su confesi\u00f3n sincera y sin tapujos, muy lejos de la visi\u00f3n almibarada de la adolescencia que imper\u00f3 hasta entonces, Holden nos desvela la realidad de un muchacho enfrentado al fracaso escolar, a las r\u00edgidas normas de una familia tradicional, a la experiencia de la sexualidad m\u00e1s all\u00e1 del mero deseo.",
+        "year": "1951",
+        "dato1": "J.D. Salinger",
+        "dato2": "Literatura juvenil, de aprendizaje y de realismo."
+    },
+    {
+        "nombre": "El Alquimista",
+        "img": "https:\/\/images.cdn3.buscalibre.com\/fit-in\/360x360\/04\/1f\/041faab83743751d96b0b362733f33f4.jpg",
+        "texto": "Relata las aventuras de Santiago, un joven pastor andaluz que un d\u00eda emprende un viaje por las arenas del desierto en busca de un tesoro. Lo que empieza como la b\u00fasqueda de bienes mundanos se convertir\u00e1 en el descubrimiento del tesoro interior.",
+        "year": "1988",
+        "dato1": "Paulo Coelho",
+        "dato2": "Literatura de dramam, aventuras, fantas\u00eda y de misi\u00f3n."
+    },
+    {
+        "nombre": "Ana de las Tejas Verdes",
+        "img": "https:\/\/imagessl2.casadellibro.com\/a\/l\/t7\/62\/9788414029862.jpg",
+        "texto": "Cuando en lugar del chico hu\u00e9rfano que pretend\u00edan adoptar, Ana Shirley, una ni\u00f1a pelirroja de once a\u00f1os, aparece en las vidas de Marilla y Matthew Cuthbert, dos hermanos solteros que viven en su casa familiar de Tejas Verdes, en el peque\u00f1o pueblo de Avonlea, sus vidas y las de cuantos la rodean cambiar\u00e1n para siempre. ",
+        "year": "1908",
+        "dato1": "Lucy Maud Montgomery",
+        "dato2": "Literatura infantul, ficci\u00f3n y de aprendizaje."
+    },
+    {
+        "nombre": "El nombre de la rosa",
+        "img": "https:\/\/imagessl7.casadellibro.com\/a\/l\/t7\/07\/9788426418807.jpg",
+        "texto": "Un monasterio medieval se ve plagado de atroces asesinatos y s\u00f3lo un hombre puede juntar las piezas del rompecabezas.",
+        "year": "1980",
+        "dato1": "Umberto Eco",
+        "dato2": "Literatura de ficci\u00f3n, hist\u00f3rica, y misterio hist\u00f3rico"
+    },
+    {
+        "nombre": "\u00c1ngeles y Demonios",
+        "img": "https:\/\/imagessl8.casadellibro.com\/a\/l\/t7\/08\/9788408176008.jpg",
+        "texto": "Robert Langdon, experto profesor en temas religiosos de la Universidad de Harvard, descubre evidencias del resurgimiento de una antigua hermandad secreta conocida como los Illuminati, la organizaci\u00f3n clandestina m\u00e1s poderosa de la historia.",
+        "year": "2000",
+        "dato1": "Dan Brown",
+        "dato2": "Literatura de suspenso, misterio y polic\u00edaca"
+    }
+]

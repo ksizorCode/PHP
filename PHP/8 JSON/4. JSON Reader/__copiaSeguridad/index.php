@@ -1,13 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lector de JSON</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+<? $titulo = "Lector de JSONs"?>
+<? include 'funciones.php'?>
+
+<? cargar('header') ?>
+
 
     <?php
 // 0. LEE EL CÓDIGO POR BLOQUES DE ABAJOPARA ARRIBA: 3, 2, 1
@@ -33,7 +28,7 @@ $archivos=scandir($carpeta); // guardamos el array con el contenido de carpeta
 //los dos primeros elementos del array son . y .. los borro:
 $lista_archivos = array_slice($archivos,2);
 ?>
-<h1>Mi lector de JSONs: <a href="<?php echo $carpeta.$archivoJSON; ?>"><span><?php echo $archivoJSON; ?></span></a></h1>
+<h1>Mi lector de JSONs: <a href="<?php echo $carpeta.$archivoJSON; ?>" target="_blank"><span><?php echo $archivoJSON; ?></span></a></h1>
 
 <!-- Dibujamos Select -->
 <label for="archivoJSON">Selecciona un JSON a cargar como datos: </label>
@@ -55,7 +50,7 @@ echo "</select>";
     //$archivoJSON='datos.json';
 
     //importar el JSON de la carpeta "JSON/"
-    $miJSON = file_get_contents('JSONs/'.$archivoJSON);
+    $miJSON = file_get_contents('JSON/'.$archivoJSON);
 
     //convertir JSON a Array PHP
     $datos = json_decode($miJSON, true);
@@ -63,16 +58,17 @@ echo "</select>";
     //mostrar datos en bonito (recorrer Array)
     foreach($datos as $ficha){
         echo '<li>';
+        echo '<a href="ficha.php?ficha='.$ficha['nombre'].'">';
         echo '<img src="'.$ficha['img'].'">';
         echo '<h2>'.$ficha['nombre'].'</h2>';
         echo '<p>'.$ficha['texto'].'</p>';
         echo '<p><span>Year:</span>'.$ficha['year'].'</p>';
         echo '<p><span>Dato1:</span>'.$ficha['dato1'].'</p>';
         echo '<p><span>Dato2:</span>'.$ficha['dato2'].'</p>';
+        echo '</a>';
+        echo '<a class="btn" href="ficha.php?ficha='.$ficha['nombre'].'">Ver ficha</a>';
         echo '</li>';
     }
     echo '</ul>';
 ?>
-
-</body>
-</html>
+<? cargar('footer') ?>

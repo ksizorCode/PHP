@@ -1,0 +1,192 @@
+@charset "UTF-8"; * {
+  box-sizing: border-box;
+}
+
+:root {
+  --c: rgba(173, 216, 230,.75);
+  --l: white;
+  --l1: rgba(255,255,255,.8);
+  --d: black;
+  --d2: rgba(0,0,0,.2);
+  --d3: rgba(0,0,0,.4);
+  --d5: rgba(0,0,0,.025);
+  --m: 8px;
+  --bs: 2px 2px 23px var(--c);
+  --🐜: red;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  min-width: 220px;
+  min-height: 100vh;
+  background-size: 60%;
+  background-position: center center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--d);
+}
+
+h1 a, h1 {
+  color: var(--c);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin: 30px 10px
+}
+
+ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+ul li h2 {
+  color: var(--c);
+  white-space: nowrap;
+  font-size: 1em;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin: 10px 0;
+}
+
+ul li p {
+  font-size: 0.78em;
+}
+
+ul li p:nth-child(2) {
+  color: var(--d3)
+}
+
+ul li img {
+  transition: 0.3s;
+  position: relative;
+  display: block;
+  top: 0;
+}
+
+ul li {
+  background: var(--d5);
+  padding: 8px;
+  border-radius: var(--m);
+  border: 1px solid var(--d3);
+  background: var(--l);
+  z-index: 0;
+  transition: .3s
+}
+
+ul li:hover {
+  scale: 1.01;
+  box-shadow: 2px 2px 28px var(--c);
+  z-index: 1;
+}
+
+ul li:hover img {
+  scale: 1.2;
+  background: var(--l);
+  outline-offset: 0;
+  top: -20px;
+  box-shadow:var(--bs);
+}
+
+ul:hover li:not(:hover) img {
+  opacity: 0.8;
+  filter: grayscale(1);
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  outline: var(--c) 2px solid;
+  outline-offset: -5px;
+  background: var(--c);
+}
+
+li p span {
+  color: var(--c);
+  padding-right: 4px;
+}
+
+li p {
+  margin-bottom: 3px;
+  padding-bottom: 3px;
+}
+
+.ficha, footer {
+  background: var(--l1);
+  border: solid 2px var(--c);
+  padding: var(--m);
+  margin: 10px auto;
+  max-width: 340px;
+  border-radius: var(--m);
+  box-shadow: var(--bs);
+}
+
+.ficha img {
+  display: block;
+  width: 100%;
+  height:300px;
+  aspect-ratio: 1/1 !important;
+  object-fit:contain;
+  margin: 0 auto;
+  outline: white 2px solid;
+}
+
+/*Debuggin*/
+.debuggin {
+  display: inline-block;
+  background-color: var(--l1);
+  padding: var(--m);
+  border: solid 3px var(--🐜);
+  color: var(--🐜);
+  box-shadow: var(--bw);
+  margin: 10px;
+  border-radius: calc(var(--m));
+}
+
+a.btn {
+  background: var(--l);
+  display: block;
+  min-width: 100%;
+  padding: var(--m);
+  border-radius: var(--m);
+  border: solid 1px var(--c);
+  text-align: center;
+}
+
+li:hover a.btn, a.btn:hover, a.btn.active {
+  background: var(--c);
+  color: var(--l);
+}
+
+a.btn.active:hover {
+  background: var(--d) !important;
+}
+
+body::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  background: var(--l1);
+  z-index: -2;
+}
