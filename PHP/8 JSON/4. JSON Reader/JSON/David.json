@@ -1,0 +1,81 @@
+ [{
+        "nombre": "Fix San",
+        "img": "https://play-lh.googleusercontent.com/qhQIDAnCqLIy3BtSyeeaKZ9Us4Tn1jZ3gyGhbW-pTDa01MoPj3jIqhmtS0rk0NuQCyM",
+        "texto": "Semark",
+        "year": 1,
+        "dato1": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt voluptas enim iste ducimus. Ipsa, veritatis?",
+        "dato2": ""
+    },
+    {
+        "nombre": "Flexidy",
+        "img": "https://s3-symbol-logo.tradingview.com/flex--600.png",
+        "texto": "Ricciardelli",
+        "year": 2,
+        "dato1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet harum veniam natus tempora illo recusandae!",
+        "dato2": ""
+    },
+    {
+        "nombre": "Stim",
+        "img": "https://www.muycomputer.com/wp-content/uploads/2023/01/Steam-12.jpg?mrf-size=m",
+        "texto": "Arnoldi",
+        "year": 3,
+        "dato1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid expedita unde deleniti, provident fuga rem gordito.",
+        "dato2": ""
+    },
+    {
+        "nombre": "Y-olowarm",
+        "img": "https://cdn-icons-png.flaticon.com/512/3770/3770984.png",
+        "texto": "Swynfen",
+        "year": 4,
+        "dato1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, beatae consequuntur numquam excepturi iusto atque!",
+        "dato2": ""
+    },
+    {
+        "nombre": "Opela",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Opel_Logo_2021.svg/1200px-Opel_Logo_2021.svg.png",
+        "texto": "Brisco",
+        "year": 5,
+        "dato1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. At libero consequuntur doloribus incidunt rem deleniti.",
+        "dato2": ""
+    },
+    {
+        "nombre": "Cardguard",
+        "img": "https://www.bankoftennessee.com/wp-content/uploads/BoT-Business-Credit-Card-720x500-2022.png",
+        "texto": "Huzzay",
+        "year": 6,
+        "dato1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore assumenda quasi ipsum repellat voluptates labore.",
+        "dato2": ""
+    },
+    {
+        "nombre": "Temp",
+        "img": "https://1.bp.blogspot.com/-_nmGxVWjqMY/Vx_dw1qbJCI/AAAAAAAACvI/VhYuqtQNB8Ujz4EOuGh8QLHhotsiIk_PgCLcB/s1600/tempfile.png",
+        "texto": "Cochrane",
+        "year": 7,
+        "dato1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nam necessitatibus vitae, accusamus assumenda quos?",
+        "dato2": ""
+    },
+    {
+        "nombre": "Alphazap",
+        "img": "https://t3.ftcdn.net/jpg/03/64/04/62/360_F_364046237_vNzvuBopD8UQO6cb78djjLZ7WaECfNDR.jpg",
+        "texto": "Morris",
+        "year": 8,
+        "dato1": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid accusamus, fugiat itaque iusto quaerat adipisci.",
+        "dato2": ""
+    },
+    {
+        "nombre": "Redhold",
+        "img": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F70A31459322FEE92D395C43D0E603283F6DA85946B677F4DA5AECEF7DBE9574/scale?width=1200&aspectRatio=1.78&format=jpeg",
+        "texto": "Glanvill",
+        "year": 9,
+        "dato1": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, voluptatem. Explicabo rem omnis labore magni?",
+        "dato2": ""
+    },
+    {
+        "nombre": "Keylex",
+        "img": "https://images.vstatics.com//business/c6/6d/69/big_logogplus.jpg",
+        "texto": "Drinkhill",
+        "year": 10,
+        "dato1": " tristique Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores praesentium omnis culpa! Dolorum, illo!",
+        "dato2": ""
+    }
+]

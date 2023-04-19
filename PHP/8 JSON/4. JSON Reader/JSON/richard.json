@@ -1,0 +1,89 @@
+[
+  {
+      "nombre": "Toyota",
+      "dato1": "Corolla",
+      "year": 2019,
+      "dato2": "Rojo",
+      "texto": "con esto vuelas - Llantas de aleaci\u00f3n- C\u00e1mara de retroceso",
+     
+      "img": "https://www.diariomotor.com/imagenes/picscache/750x/sema-toyota-corolla-2019-p_750x.jpg"
+  },
+  {
+      "nombre": "Honda",
+      "dato1": "Civic",
+      "year": 2020,
+      "dato2": "Azul",
+      "texto": "Asientos de cuero - Sistema de navegaci\u00f3n - Sunroof",
+  
+      "img": "https://hackercar.com/wp-content/uploads/2020/12/honda-civic-type-r-2020-1.jpg"
+  },
+  {
+      "nombre": "Chevrolet",
+      "dato1": "Camaro",
+      "year": 2022,
+      "dato2": "amarillo",
+      "texto": "Motor V8 de alto rendimiento - Transmisión automática de 10 velocida - Sistema de escape deportivoSistema de sonido premium",
+      "img": "https://hips.hearstapps.com/es.h-cdn.co/cades/contenidos/10391/ckiecv9xeaaezdf.jpg_20large.jpg"
+    },
+    {
+      "nombre": "Ford",
+      "dato1": "Mustang",
+      "year": 2023,
+      "dato2": "negro",
+      "texto": "Aire acondicionado - Llantas de aleaci\u00f3n- C\u00e1mara de retroceso",
+      "img": "https://www.elcarrocolombiano.com/wp-content/uploads/2023/01/20-01-2023-PORTADA-Ford-Mustang-Centennial-Edition-min.jpg"
+    },
+    {
+      "nombre": "Nissan",
+      "dato1": "Altima",
+      "year": 2022,
+      "dato2": "gris",
+      "texto": "Aire acondicionado - Llantas de aleaci\u00f3n- C\u00e1mara de retroceso",
+      "img": "https://img.motoryracing.com/noticias/portada/34000/34586-n.jpg"
+    },
+    {
+      "nombre": "BMW",
+      "dato1": "Serie 3",
+      "year": 2023,
+      "dato2": "blanco",
+      "texto": "Aire acondicionado - Llantas de aleaci\u00f3n- C\u00e1mara de retroceso",
+      "img": "https://imagenes.km77.com/fotos/bbtcontent/clippingnew/KM7KPH20220518_0001/full-original.jpg"
+    },
+    {
+      "nombre": "Mercedes-Benz",
+      "dato1": "Clase C",
+      "year": 2022,
+      "dato2": "plateado",
+      "texto": "Aire acondicionado - Llantas de aleaci\u00f3n- C\u00e1mara de retroceso",
+      "img": "https://www.autonocion.com/wp-content/uploads/2022/07/Mercedes-Benz-Clase-C-de-BRABUS-25.jpg"
+    },
+    {
+      "nombre": "Chevrolet",
+      "dato1": "Camaro",
+      "year": 2023,
+      "dato2": "negro",
+      "texto": "Aire acondicionado - Llantas de aleaci\u00f3n- C\u00e1mara de retroceso",
+      "img": "https://c8.alamy.com/compes/2g14fc2/palm-beach-florida-ee-uu-21-de-marzo-de-2021-coche-de-lujo-chevrolet-camaro-negro-2g14fc2.jpg"
+    },
+    {
+      "nombre": "Volkswagen",
+      "dato1": "Golf GTI",
+      "year": 2022,
+      "dato2": "Blanco",
+      "texto": "Aire acondicionado - Llantas de aleaci\u00f3n- C\u00e1mara de retroceso",
+      "img": "https://www.autonocion.com/wp-content/uploads/2022/01/Prueba-Volkswagen-Golf-R-320-CV-DSG-4Motion-2022-10-1130x754.jpg"
+    },
+    {
+      "nombre": "Mercedes-Benz",
+      "dato1": "Amg gt",
+      "year": 2023,
+      "dato2": "Gris",
+      "texto": "Aire acondicionado - Llantas de aleaci\u00f3n- C\u00e1mara de retroceso",
+      "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mercedes-amg-gt-black-series-p-one-edition-1-1595248784.jpg?crop=1xw:0.8888888888888888xh;center,top&resize=1200:*"
+    }
+]
+     
+        
+          
+    
+

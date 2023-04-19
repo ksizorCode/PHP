@@ -1,0 +1,26 @@
+[
+    {
+      "nombre": "Gracias a la vida",
+      "img": "https://m.media-amazon.com/images/I/51cVhLyO4oL._SX425_.jpg",
+      "texto": "Canción dedicada a dar gracias",
+      "year": 1971,
+      "dato1": "Mercedes Sosa",
+      "dato2": "Argentina"
+    },
+    {
+      "nombre": "Ramitos de violetas",
+      "img": "https://pics.filmaffinity.com/cecilia_ramito_de_violetas-265026023-large.jpg",
+      "texto": "Canción dedicada a las flores",
+      "year": 1975,
+      "dato1": "Cecilia",
+      "dato2": "España"
+    },
+    {
+      "nombre": "La vida sigue igual",
+      "img": "https://m.media-amazon.com/images/I/410WMCR7WHL.jpg",
+      "texto": "Canción dedicada a la vida",
+      "year": 1969,
+      "dato1": "Julio Iglesias",
+      "dato2": "España"
+    }
+   ]
