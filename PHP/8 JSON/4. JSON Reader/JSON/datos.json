@@ -1,82 +1,50 @@
 [
     {
-        "nombre": "Wonder Woman",
-        "img": "https://m.media-amazon.com/images/I/61Xi+BGmGgL._AC_SL1000_.jpg ",
-        "profesion": "Arque\u00f3loga",
-        "texto": " Aventura y la acción",
-        "year": "120 años",
-        "dato1": "Tiene un l\u00e1tigo con el que no podr\u00e1s mentir",
-        "dato2": "Es una valiente guerra"
+        "nombre": "Hola desde Github --",
+        "img": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/a\/a9\/MarioNSMBUDeluxe.png\/220px-MarioNSMBUDeluxe.png",
+        "texto": "Fontanero que viaja por tuber\u00edas y come setas.",
+        "year": "25",
+        "dato1": "rojo, negro y azul",
+        "dato2": "Nintendo Nes"
     },
     {
-        "nombre": "Cat Woman",
-        "img": "https://m.media-amazon.com/images/I/71QnOictzvL._AC_SL1500_.jpg ",
-        "profesion": "Ladrona",
-        "texto": " Me encantan los gatitos",
-        "year": "36 años",
-        "dato1": "Tan adorable como peligrosa ",
-        "dato2": "Viste de negro"
+        "nombre": "Luigi",
+        "img": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/7\/73\/Luigi_NSMBUDX.png",
+        "texto": "Hermano de Mario",
+        "year": "22",
+        "dato1": "verde, negro y blanco",
+        "dato2": "Super Nintendo"
     },
     {
-        "nombre": "Super Girl",
-        "img": "https://lafrikileria.com/41065-large_default/funko-pop-supergirl-edicion-limitada.jpg ",
-        "profesion": "Super poderosa",
-        "texto": " Soy super",
-        "year": "30 años ",
-        "dato1": "Prima de Super man",
-        "dato2": "No puede ni ver la Kriptonita"
+        "nombre": "Princesa Peach",
+        "img": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/1\/16\/Princess_Peach_Stock_Art.png",
+        "texto": "Es la princesa a la que rescatar.",
+        "year": "23",
+        "dato1": "rosa y amarillo",
+        "dato2": "Game Boy "
     },
     {
-        "nombre": "Viuda Negra",
-        "img": "https://m.media-amazon.com/images/I/71BQtorIR1L._AC_SS450_.jpg ",
-        "profesion": "Ex-Esp\u00eda",
-        "texto": " Ni te darás cuentas que te vigilo",
-        "year": "35 años",
-        "dato1": "Fr\u00eda, luchadora e inteligente",
-        "dato2": "No te metas con ella o te arrepentiras"
+        "nombre": "Toad",
+        "img": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/d\/d1\/Toad_3D_Land.png",
+        "texto": "Es una seta amiga",
+        "year": "desconocido",
+        "dato1": "rojo y blanca",
+        "dato2": "Super Nintendo"
     },
     {
-        "nombre": "Gamora",
-        "img": "https://m.media-amazon.com/images/I/51-aBqyCIfS._AC_SX425_.jpg ",
-        "profesion": "Guardiana  de la Galax\u00eda",
-        "texto": " La guerra de la galaxia",
-        "year": "30 años",
-        "dato1": "La guerra m\u00e1s dura de la galaxia",
-        "dato2": "Fue adoptada por Thanos"
+        "nombre": "Yoshi",
+        "img": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/d\/db\/Yoshi_%28Nintendo_character%29.png",
+        "texto": "Dragon raro",
+        "year": "desconocido",
+        "dato1": "verde, blanco y rojo",
+        "dato2": "Super Nintendo"
     },
     {
-        "nombre": "Shuri",
-        "img": "https://m.media-amazon.com/images/I/61XG103W-BL._AC_SL1443_.jpg ",
-        "profesion": "Reina e invetigadora",
-        "texto": " La tecnología es mi pasión",
-        "year": "28 años",
-        "dato1": "Inteligente, decidida y ambiciosa",
-        "dato2": "La nueva Black Panther"
-    },
-
-    {
-        "nombre": "Super Man",
-        "img": "https://m.media-amazon.com/images/I/617cdhho1iL._AC_SY879_.jpg",
-        "texto": "Soy el primer super heroe",
-        "year": 30,
-        "dato1": "No soy fan de la kriptonita",
-        "dato2": "nun se"
-      },
-      {
-        "nombre": "Iron Man",
-        "img": "https://m.media-amazon.com/images/I/61Bx7HZwXGL._AC_SX679_.jpg",
-        "texto": "Maestro tecnológico",
-        "year": 45,
-        "dato1": "Soy el más guay",
-        "dato2": "soy guay"
-      },
-      {
-        "nombre": "Batman",
-        "img": "https://m.media-amazon.com/images/I/61DjVipqI+L._AC_SY606_.jpg",
-        "texto": "Soy muy rico",
-        "year": 40,
-        "dato1": "me gusta la noche",
-        "dato2": "fan de mis peores miedos"
-      }
-    
+        "nombre": "Bowser",
+        "img": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/9\/92\/Bowser_Stock_Art_2021.png",
+        "texto": "Es el malo de los videojuegos",
+        "year": "desconocido",
+        "dato1": "amarillo, verde y naranja",
+        "dato2": "Game Boy 1989"
+    }
 ]
