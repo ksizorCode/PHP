@@ -1,0 +1,82 @@
+[
+  {
+    "nombre": "yo",
+    "img": "https://images.unsplash.com/photo-1679860283368-a856a65fce27?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODE4NDUxMzg&ixlib=rb-4.0.3&q=85",
+    "texto": "klasdh",
+    "year": 346,
+    "dato1": "asdga",
+    "dato2": "ui"
+  },
+  {
+    "nombre": "tu",
+    "img": "https://images.unsplash.com/photo-1681502014973-c3eb8b441e46?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODE4NDUxMzg&ixlib=rb-4.0.3&q=85",
+    "texto": "adfhafdh",
+    "year": 346,
+    "dato1": "asdga",
+    "dato2": "yt"
+  },
+  {
+    "nombre": "el",
+    "img": "https://images.unsplash.com/photo-1681649514551-712e2093d277?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODE4NDUxMzg&ixlib=rb-4.0.3&q=85",
+    "texto": "adfhadfh",
+    "year": 346,
+    "dato1": "sdg",
+    "dato2": "rr"
+  },
+  {
+    "nombre": "ella",
+    "img": "https://plus.unsplash.com/premium_photo-1677087123392-3a3c03b69790?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODE4NDUxNjM&ixlib=rb-4.0.3&q=85",
+    "texto": "afdhafdh",
+    "year": 235,
+    "dato1": "st",
+    "dato2": "tt"
+  },
+  {
+    "nombre": "nosotros",
+    "img": "https://images.unsplash.com/photo-1679891419078-ad37d827071d?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODE4NDUxNjM&ixlib=rb-4.0.3&q=85",
+    "texto": "adfhafdh",
+    "year": 74,
+    "dato1": "eu",
+    "dato2": "ee"
+  },
+  {
+    "nombre": "ustedes",
+    "img": "https://images.unsplash.com/photo-1680776192906-3d3d8fcccbdd?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODE4NDUxNjM&ixlib=rb-4.0.3&q=85",
+    "texto": "fha",
+    "year": 346,
+    "dato1": "rt",
+    "dato2": "gg"
+  },
+  {
+    "nombre": "vosotras",
+    "img": "https://images.unsplash.com/photo-1681656213270-2f862b53783d?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODE4NDUxNjM&ixlib=rb-4.0.3&q=85",
+    "texto": "ahfr",
+    "year": 74,
+    "dato1": "fdh",
+    "dato2": "hh"
+  },
+  {
+    "nombre": "ustedas",
+    "img": "https://images.unsplash.com/photo-1679173479711-d47c29e93633?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODE4NDUxODQ&ixlib=rb-4.0.3&q=85",
+    "texto": "adfh",
+    "year": 85,
+    "dato1": "sdh",
+    "dato2": "jj"
+  },
+  {
+    "nombre": "allies",
+    "img": "https://plus.unsplash.com/premium_photo-1672764022711-d07835d345fa?crop=entropy&cs=srgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2ODE4NDUxODQ&ixlib=rb-4.0.3&q=85",
+    "texto": "gjs",
+    "year": 79,
+    "dato1": "dsfh",
+    "dato2": "jj"
+  },
+  {
+    "nombre": "alles",
+    "img": "https:",
+    "texto": "",
+    "year": "",
+    "dato1": "",
+    "dato2": ""
+  }
+]

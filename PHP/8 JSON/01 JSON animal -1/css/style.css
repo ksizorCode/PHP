@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+*{
+    box-sizing:border-box;
+}
+
+:root{
+    --c:burlywood;
+}
+
+body{
+    max-width:960px;
+    margin:10px auto;
+    background: var(--c);
+    color:white;
+    margin:0 auto;
+    padding:10px;
+    font-family: "comfortaa",sans-serif;
+}
+
+ul{
+    display:flex;
+    flex-wrap:wrap;
+    list-style:none;
+    gap:8px;
+
+    padding-left:0;
+    justify-content:center;
+    
+
+}
+
+ul.tarjetas{
+    margin-bottom:20px;
+    gap: 14px;
+}
+
+ul.tarjetas>li{
+  background:rgba(255,255,255,.3);
+  border-radius:20px;
+  padding:20px;
+}
+
+ul li ul {
+    display:blocK;
+    list-style: none;
+    margin-bottom:30px;
+    
+}
+
+
+img {
+    width:200px;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    border-radius: 20px;
+    
+}
+
+
+
+
+img{
+  outline: 94px solid rgba(255,255,255,.3);
+  outline-offset:-125px;
+  filter: grayscale(0.5);
+  transition:0.3s;
+}
+
+img:hover,
+ul.tarjetas li:hover img{
+  outline: 4px solid rgba(255,255,255,.8);
+  outline-offset:4px; 
+  filter: grayscale(0);
+
+  box-shadow: 2px 2px 18px rgba(0,0,0,.8);
+  scale:1.1;
+}
+
+
+
+.aplauso{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.mensaje{
+    color:black;
+    font-family: "comfortaa",sans-serif;
+}
+
+
+h1,h2{
+    text-align: center;
+}
+
+
+
+a,
+input[type="submit"],
+input[type="reset"]
+{
+    background:white;
+    color:var(--c);
+    font-weight:bold;
+    padding:12px;
+    min-width: 198px;
+    text-align:center;
+    border-radius:20px;
+    text-decoration:none;
+    margin: 10px 0;
+    display:inline-block;
+    border:none;
+}
+
+header a{
+  min-width:80px;
+  background:none;
+  color:white;
+  border:white solid 2px;
+}
+
+header a:hover{
+  background:white;
+  color:var(--c);
+  border:white solid 2px;
+}
+
+.ficha{
+    max-width:320px;
+    margin:20px auto;
+}
+
+.ficha img{ width:100%;}
+
+.ficha a{
+    width:100%;
+}
+
+.ficha .tablilla,
+ul.tarjetas ul{
+    border-radius:20px;
+    border:solid 1px white;
+}
+
+.ficha .tablilla p,
+ul.tarjetas ul li{
+    padding:0px 20px 10px 20px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+.ficha .tablilla p:not(:last-child),
+ul.tarjetas ul li:not(:last-child){
+    border-bottom:solid 1px white;
+}
+
+.ficha .tablilla p:last-child,
+ul.tarjetas ul li:last-child{
+    padding-bottom:0px;
+}
+
+
+
+
+form{
+    border: solid 2px white;
+    padding:20px; 
+    border-radius:20px;
+}
+
+form input{
+    background:rgba(255,255,255,.8);
+    padding:8px 12px;
+    border-radius:20px;
+    border:none;
+
+    display:block;
+    width:100%;
+    margin:8px 0 20px 0;
+}
+
+fieldset{
+    border: white 1px solid;
+    border-radius:16px;
+    margin-bottom:28px;
+    padding-top:20px;
+}
+
+fieldset legend{
+    font-weight:bold;
+    text-shadow:2px 2px 8px rgba(0,0,0,.8)
+}
+
+
+
+
+
+
+.desactivado{
+    background:rgba(255,255,255,.2) !important;
+    color:white !important;
+    border: white 1px solid !important;
+}
+
+/* focus */
+:focus,
+a:hover{
+    border:white 2px solid;
+outline:white 1px solid;
+font-weight:bold;
+scale:1.1;
+box-shadow: 2px 2px 8px rgba(0,0,0,.3);
+transition:.3s;
+    }
+

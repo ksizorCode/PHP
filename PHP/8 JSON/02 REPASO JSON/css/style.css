@@ -1,0 +1,142 @@
+:root {
+    --c: lightblue;
+    --c1: blue;
+    --c2: darkblue;
+
+    --l: rgba(255,255,255,1);
+    --l1: rgba(255,255,255,.8);
+    --l2: rgba(255,255,255,.3);
+    
+    --d: rgba(0,0,0,1);
+    --d1:rgba(0,0,0,.6);
+    --d2:rgba(0,0,0,.3);
+
+    --ff: sans-serif;
+
+    --maw: 960px;
+    --m: 20px;
+}
+
+body {
+    max-width: var(--maw);
+    min-width: 280px;
+    margin:0 auto;
+    background: var(--c);
+    font-family: var(--ff);
+    padding: var(--m);
+}
+
+a {
+    color: var(--c);
+    text-decoration: none;
+}
+
+header,
+main,
+footer {
+    background: var(--l1);
+    padding: calc(var(--m) * 1.5);
+    margin:8px 0;
+}
+
+header ul,
+footer ul{
+    display: flex;
+    gap:calc(var(--m) / 2);
+    padding-left: 0;
+    list-style: none;
+}
+
+
+header {}
+
+footer {}
+
+
+
+
+/* AVISO */
+
+.aviso{
+    background:var(--l);
+    padding:calc( var(--m) / 1);
+    border-radius:var(--m);
+    border: solid 2px var(--c);
+    margin:var(--m) 0
+}
+
+.aviso h2{
+    color:var(--c);
+}
+
+.aviso h2 i{
+    margin-right:10px;
+    background:none;
+    width:20px;
+    height:20px;
+    border:2px solid var(--c);
+    border-radius:50%;;
+    display:inline-block;
+    padding:12px;
+    text-align:center;
+    
+}
+
+.aviso:hover h2 i{
+    background:var(--c);
+    color:var(--l);
+    
+}
+
+.aviso a{
+    background:var(--c);
+    padding:calc(var(--m)/2) var(--m);
+    color:var(--l);
+    border-radius:calc(var(--m)*1.5);
+    margin:calc(var(--m) / 2) 0;
+
+    display:inline-block;
+    
+}
+
+.aviso a:hover{
+    background:var(--d); 
+}
+
+
+/* galeria de personajes */
+ul.galeria{
+    list-style:none;
+    padding-left:0;
+
+    display:flex;
+    gap:var(--m);
+    flex-wrap:wrap;
+}
+
+ul.galeria li img{
+    width:200px;
+    aspect-ratio:1/1;
+    object-fit:contain;
+    display:block:
+    margin: 0 auto;
+}
+
+ul.galeria li{
+    max-width:200px;
+    background:var(--l1);
+    padding:calc(var(--m));
+    border-radius:var(--m);
+}
+
+ul.galeria li h2{
+ 
+    color:var(--l);
+    text-align:center;
+    background:var(--c);
+    border-radius:20px;
+}
+
+ul.galeria li .d2{
+    color:var(--c);
+}

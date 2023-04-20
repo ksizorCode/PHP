@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Wonder Woman",
+        "img": "https://m.media-amazon.com/images/I/61Xi+BGmGgL._AC_SL1000_.jpg ",
+        "profesion": "Arque\u00f3loga",
+        "year": "120 años",
+        "dato1": "Tiene un l\u00e1tigo con el que no podr\u00e1s mentir",
+        "dato2": "Es una valiente guerra"
+    },
+    {
+        "nombre": "Cat Woman",
+        "img": "https://m.media-amazon.com/images/I/71QnOictzvL._AC_SL1500_.jpg ",
+        "profesion": "Ladrona",
+        "year": "36 años",
+        "dato1": "Tan adorable como peligrosa ",
+        "dato2": "Viste de negro"
+    },
+    {
+        "nombre": "Super Girl",
+        "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Flafrikileria.com%2Fes%2Fregalos-batman-superman%2F15046-funko-pop-supergirl-edicion-limitada-889698347198.html&psig=AOvVaw0OEmG5zdL59xXytcQrt-oI&ust=1681925395412000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCLDK78D6s_4CFQAAAAAdAAAAABAH ",
+        "profesion": "Super poderosa",
+        "year": "30 años ",
+        "dato1": "Prima de Super man",
+        "dato2": "No puede ni ver la Kriptonita"
+    },
+    {
+        "nombre": "Viuda Negra",
+        "img": "https://m.media-amazon.com/images/I/71BQtorIR1L._AC_SS450_.jpg ",
+        "profesion": "Ex-Esp\u00eda",
+        "year": "35 años",
+        "dato1": "Fr\u00eda, luchadora e inteligente",
+        "dato2": "No te metas con ella o te arrepentiras"
+    },
+    {
+        "nombre": "Gamora",
+        "img": "https://m.media-amazon.com/images/I/51-aBqyCIfS._AC_SX425_.jpg ",
+        "profesion": "Guardiana  de la Galax\u00eda",
+        "year": "30 años",
+        "dato1": "La guerra m\u00e1s dura de la galaxia",
+        "dato2": "Fue adoptada por Thanos"
+    },
+    {
+        "nombre": "Shuri",
+        "img": "https://m.media-amazon.com/images/I/61XG103W-BL._AC_SL1443_.jpg ",
+        "profesion": "Reina e invetigadora",
+        "year": "28 años",
+        "dato1": "Inteligente, decidida y ambiciosa",
+        "dato2": "La nueva Black Panther"
+    }
+]

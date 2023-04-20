@@ -1,0 +1,82 @@
+[
+    {
+        "nombre": "Wonder Woman",
+        "img": "https://m.media-amazon.com/images/I/61Xi+BGmGgL._AC_SL1000_.jpg ",
+        "profesion": "Arque\u00f3loga",
+        "texto": " Aventura y la acción",
+        "year": "120 años",
+        "dato1": "Tiene un l\u00e1tigo con el que no podr\u00e1s mentir",
+        "dato2": "Es una valiente guerra"
+    },
+    {
+        "nombre": "Cat Woman",
+        "img": "https://m.media-amazon.com/images/I/71QnOictzvL._AC_SL1500_.jpg ",
+        "profesion": "Ladrona",
+        "texto": " Me encantan los gatitos",
+        "year": "36 años",
+        "dato1": "Tan adorable como peligrosa ",
+        "dato2": "Viste de negro"
+    },
+    {
+        "nombre": "Super Girl",
+        "img": "https://lafrikileria.com/41065-large_default/funko-pop-supergirl-edicion-limitada.jpg ",
+        "profesion": "Super poderosa",
+        "texto": " Soy super",
+        "year": "30 años ",
+        "dato1": "Prima de Super man",
+        "dato2": "No puede ni ver la Kriptonita"
+    },
+    {
+        "nombre": "Viuda Negra",
+        "img": "https://m.media-amazon.com/images/I/71BQtorIR1L._AC_SS450_.jpg ",
+        "profesion": "Ex-Esp\u00eda",
+        "texto": " Ni te darás cuentas que te vigilo",
+        "year": "35 años",
+        "dato1": "Fr\u00eda, luchadora e inteligente",
+        "dato2": "No te metas con ella o te arrepentiras"
+    },
+    {
+        "nombre": "Gamora",
+        "img": "https://m.media-amazon.com/images/I/51-aBqyCIfS._AC_SX425_.jpg ",
+        "profesion": "Guardiana  de la Galax\u00eda",
+        "texto": " La guerra de la galaxia",
+        "year": "30 años",
+        "dato1": "La guerra m\u00e1s dura de la galaxia",
+        "dato2": "Fue adoptada por Thanos"
+    },
+    {
+        "nombre": "Shuri",
+        "img": "https://m.media-amazon.com/images/I/61XG103W-BL._AC_SL1443_.jpg ",
+        "profesion": "Reina e invetigadora",
+        "texto": " La tecnología es mi pasión",
+        "year": "28 años",
+        "dato1": "Inteligente, decidida y ambiciosa",
+        "dato2": "La nueva Black Panther"
+    },
+
+    {
+        "nombre": "Super Man",
+        "img": "https://m.media-amazon.com/images/I/617cdhho1iL._AC_SY879_.jpg",
+        "texto": "Soy el primer super heroe",
+        "year": 30,
+        "dato1": "No soy fan de la kriptonita",
+        "dato2": "nun se"
+      },
+      {
+        "nombre": "Iron Man",
+        "img": "https://m.media-amazon.com/images/I/61Bx7HZwXGL._AC_SX679_.jpg",
+        "texto": "Maestro tecnológico",
+        "year": 45,
+        "dato1": "Soy el más guay",
+        "dato2": "soy guay"
+      },
+      {
+        "nombre": "Batman",
+        "img": "https://m.media-amazon.com/images/I/61DjVipqI+L._AC_SY606_.jpg",
+        "texto": "Soy muy rico",
+        "year": 40,
+        "dato1": "me gusta la noche",
+        "dato2": "fan de mis peores miedos"
+      }
+    
+]

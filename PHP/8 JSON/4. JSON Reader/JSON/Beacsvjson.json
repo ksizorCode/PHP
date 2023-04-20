@@ -1,0 +1,18 @@
+[
+  {
+    "nombre": "Austria",
+    "img": "https://imagenes.elpais.com/resizer/cC2ODv9suSR4S-gghR1dBIc1JTU=/1200x0/filters:focal(4085x2670:4095x2680)/cloudfront-eu-central-1.images.arcpublishing.com/prisa/V5EZ52GFINFJ5CW55PDPVLA3YQ.jpghttps://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/4d/44/3c/austria.jpg?w=700&h=500&s=1",
+    "texto": "Un paÃ­s",
+    "year": 1,
+    "dato1": "AlgÃºn dÃ­a pasare",
+    "dato2": "Esta un poco frio"
+  },
+  {
+    "nombre": "Invierno",
+    "img": "https://www.google.com/url?sa=i&url=https%3A%2F%2Felpais.com%2Felviajero%2F2023-01-31%2F24-horas-en-hallstatt-descubriendo-por-que-este-es-uno-de-los-pueblos-mas-bonitos-de-austria.html&psig=AOvVaw3i8q7ZsKchmgU_SEa4zpun&ust=1681931487121000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJjE7ZmRtP4CFQAAAAAdAAAAABAR",
+    "texto": "Bonito lugar",
+    "year": 2024,
+    "dato1": "Un poco frÃ­o",
+    "dato2": "Se vera"
+  }
+]
