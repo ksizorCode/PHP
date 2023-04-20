@@ -129,3 +129,29 @@ footer{
 
     
 }
+
+.lista{
+
+    display: block;
+    width: 100%;
+
+}
+
+.lista img{
+
+    width: 80px;
+    height: 80px;
+
+}
+
+.lista li{
+
+    display: grid;
+    grid-template-columns:1fr 1fr 5fr;
+    width: 100%;
+    background:white;
+    border-radius:8px;
+    padding:10px;
+    margin-bottom:10px;
+    
+}
