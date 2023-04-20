@@ -1,5 +1,11 @@
+*{ box-sizing: border-box;}
+
+:root{
+    --c:#fabada;
+}
+
 body{
-    background:#fabada;
+    background:var(--c);
     max-width:560px;
     margin:0 auto;
     padding:20px;
@@ -118,17 +124,7 @@ footer{
 
 
 
-@media (max-width:565px){
 
-    li{ width:100%;}
-
-    li img{
-        object-fit:cover;
-    }
-
-
-    
-}
 
 .lista{
 
@@ -147,13 +143,19 @@ footer{
 .lista li{
 
     display: grid;
-    grid-template-columns:1fr 1fr 5fr;
+    gap:10px;
+    grid-template-columns:1fr 1fr 4fr;
     width: 100%;
     background:white;
     border-radius:8px;
     padding:10px;
     margin-bottom:10px;
     
+}
+
+.lista li h2{
+    color:var(--c);
+    width:120px;
 }
 
 /*** DEBUGGING****/
@@ -168,6 +170,30 @@ footer{
 }
 
 @keyframes anim1{
-    0%{ rotate:-30deg}
-    100%{ rotate:30deg;}
+    0%{ rotate:-3deg}
+    100%{ rotate:3deg;}
+}
+
+
+
+
+@media (max-width:570px){
+
+    li{ width:100%;}
+
+    li img{
+        object-fit:cover;
+    }
+
+    .lista li{
+    display: block;
+    text-align:center; 
+    }
+
+     .lista li h2{
+       width:auto; 
+    }
+
+
+    
 }

@@ -1,5 +1,11 @@
+
+
+
+
+
+
 <?php
-$debugging=0     ;
+$debugging=0;
 
 if($debugging){
     echo "estoy en modo depuración";
@@ -16,7 +22,7 @@ if($debugging){
         }
     }
 
-    alerta('HEDER.php cargado');
+    alerta('esto sirve cargado');
 
 
 ?>
