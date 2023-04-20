@@ -14,7 +14,7 @@
 <?php
 // aquí comienza PHP  -------------------
 // Array con los nombres de los archivos a excluir
-$excluir = array('.', '..', '.git','.gitattributes','.DS_Store','Thumbs.db','README.md'); 
+$excluir = array('.', '..', '.git','.gitattributes','.DS_Store','Thumbs.db','README.md','_config'); 
 $destacado =array('index.html','index.php');
 // Definimos la ruta 
 
@@ -107,10 +107,40 @@ migasPan();
 </footer>
 
 <script>
+  /*
   function cambiarVista() {
     var element = document.getElementById("archivos");
     element.classList.toggle("lista");
- }
+ }*/
+
+
+
+// Obtener el elemento que quieres cambiar de clase
+var elemento = document.getElementById('archivos');
+
+// Obtener el valor almacenado en localStorage (si existe)
+var valorLocalStorage = localStorage.getItem('mi-valor');
+
+// Si el valor existe en localStorage, asignarlo como la clase del elemento
+if (valorLocalStorage) {
+  elemento.classList.toggle(valorLocalStorage);
+}
+
+// Agregar un event listener para detectar cambios en el elemento y actualizar el valor en localStorage
+function cambiarVista(){
+  // Cambiar la clase del elemento usando toggle()
+  elemento.classList.toggle('lista');
+
+  // Obtener la clase actual del elemento
+  var nuevaClase = elemento.classList[0];
+
+  // Almacenar la nueva clase en localStorage
+  localStorage.setItem('mi-valor', nuevaClase);
+}
+
+
+
+
 </script>
 
 </body>
