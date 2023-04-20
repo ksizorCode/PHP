@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap'); * {
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+* {
   box-sizing: border-box;
 }
 
@@ -546,6 +549,7 @@ form .CodeMirror-lines{
 /* transition */
 h2{
   transition:var(--t);
+  font-size: clamp(1.2rem, 80vw, 1rem);
 }
 
 

@@ -1,3 +1,6 @@
+<?php include 'cachinos/funciones.php'?>
+
+
 
 <!DOCTYPE html>
 <html lang="es">
@@ -6,6 +9,7 @@
 <title>La Granja de Richard</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="initial-scale=1, viewport-fit=cover">
+<!-- <meta name="viewport" content="width=device-wid">-->
 
 <meta name="description" content="Learn music better with our living sheet music.">
 
@@ -32,7 +36,6 @@
 <meta name="twitter:url" content="https://2048game.com" />
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-wid">
 
 
 <link rel="icon" href="/weblx/images/icons/favicon-16x16.png">
@@ -104,13 +107,13 @@
           <a href="./">Inicio</a>
         </li>
         <li>
-          <a href="./ficha">Ficha</a>
+          <a href="./ficha.php">Ficha</a>
         </li>
         <li>
-          <a href="./insertar">Insertar</a>
+          <a href="./insertar.php">Insertar</a>
         </li>
         <li>
-          <a href="./config">Config</a>
+          <a href="./config.php">Config</a>
         </li>
       </ul>
     </nav>
