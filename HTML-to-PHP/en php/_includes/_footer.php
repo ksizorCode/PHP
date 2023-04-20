@@ -1,11 +1,8 @@
+<? alerta('FOOTER.php cargado'); ?>
 
 </main>
     <footer>
-        <ul class="menu menuFooter">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="nosotros.php">Nosotros</a></li>
-            <li><a href="contacto.php">Contacto</a></li
-        </ul>
+    <?php include "_includes/_menu.php";?>
      <p>&copy;Copyright 2023.Asturies</p>
     </footer>
 

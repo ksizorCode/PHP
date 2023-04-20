@@ -1,5 +1,8 @@
 
-        <!-- a partir de aqui cambiamos la página -->
+<?php include "_includes/_header.php";?>
+<? alerta('NOSOTROS.php cargado'); ?>
+
+<!-- a partir de aqui cambiamos la página -->
 
         <img class="foton-cabecera playa" src="img/nosotros.jpg" alt="playa">
         <h2>Nosotros</h2>
@@ -8,27 +11,9 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, esse. Magni culpa enim voluptate a!</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis, esse. Magni culpa enim voluptate a!</p>
 
-        <div id="puntos_interes">
-            <h2>Lista de puntos de interés en Asturias</h2>
-            <button onclick="cambiar()">Cambiar vista</button>
-            <ul id="galeria">
-                <li><h3>Gijón</h3>
-                 <img src="img/laboral.jpg" alt="uni">
-                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, aliquid maiores! Quod magnam voluptas consequuntur natus quasi maiores dolorum! Corporis in est magni numquam officiis ipsa facilis quaerat consequatur dignissimos.</p>
-                </li>
-    
-                <li><h3>Oviedo</h3>
-                    <img src="img/naranco.jpg" alt="Maria">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, aliquid maiores! Quod magnam voluptas consequuntur natus quasi maiores dolorum! Corporis in est magni numquam officiis ipsa facilis quaerat consequatur dignissimos.</p>
-                   </li>
-    
-                   <li><h3>Aviles</h3>
-                    <img src="img/niemeyer.jpg" alt="ria">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, aliquid maiores! Quod magnam voluptas consequuntur natus quasi maiores dolorum! Corporis in est magni numquam officiis ipsa facilis quaerat consequatur dignissimos.</p>
-                   </li>
-    
-                
-            </ul>
-        </div>  
+        <?php include "_includes/_lista.php";?>
+
        
-   
+        <?php
+    include "_includes/_footer.php";
+    ?>

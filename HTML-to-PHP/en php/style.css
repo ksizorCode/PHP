@@ -155,3 +155,19 @@ footer{
     margin-bottom:10px;
     
 }
+
+/*** DEBUGGING****/
+
+.alerta{
+    background:black;
+    padding:20px;
+    color:yellow;
+    border-radius:10px;
+    border: red 6px dotted;
+    animation: anim1 5s alternate infinite;
+}
+
+@keyframes anim1{
+    0%{ rotate:-30deg}
+    100%{ rotate:30deg;}
+}

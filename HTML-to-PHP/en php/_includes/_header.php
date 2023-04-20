@@ -1,3 +1,25 @@
+<?php
+$debugging=0     ;
+
+if($debugging){
+    echo "estoy en modo depuración";
+    echo "<style> *{border: solid 1px red;}</style>";
+}
+
+    // alerta('mensaje que queremos mostrar');
+    function alerta($mensaje){
+        global $debugging;
+        if($debugging){
+            echo "<div class='alerta'>";
+            echo $mensaje;
+            echo "</div>"; 
+        }
+    }
+
+    alerta('HEDER.php cargado');
+
+
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -11,11 +33,7 @@
     <header>
       <h1>Asturias, Paraiso Natural</h1>
       <nav>
-        <ul class="menu menuHeader">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="nosotros.php">Nosotros</a></li>
-            <li><a href="contacto.php">Contacto</a></li>
-        </ul>
+      <?php include "_includes/_menu.php";?>
       </nav>
 
     </header>
