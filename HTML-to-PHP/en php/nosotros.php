@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Asturias, Paraiso Natural</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-      <h1>Asturias, Paraiso Natural</h1>
-      <nav>
-        <ul class="menu menuHeader">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
 
-
-    </header>
-
-    <main>
         <!-- a partir de aqui cambiamos la página -->
 
         <img class="foton-cabecera playa" src="img/nosotros.jpg" alt="playa">
@@ -54,15 +31,4 @@
             </ul>
         </div>  
        
-    </main>
-    <footer>
-        <ul class="menu menuFooter">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="nosotros.html">Nosotros</a></li>
-            <li><a href="contacto.html">Contacto</a></li
-        </ul>
-     <p>&copy;Copyright 2023.Asturies</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
-</html>
+   
