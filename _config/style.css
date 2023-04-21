@@ -28,6 +28,7 @@ body {
     padding: var(--m);
     box-sizing: border-box;
     background: var(--lg);
+    background-attachment: fixed;
     min-height: 100vh;
 }
 
@@ -41,16 +42,17 @@ header {
 }
 
 main {
-    height: 70vh;
+    min-height: 70vh;margin:20px;
 }
 
 footer {
     padding: var(--m);
     text-align: center;
     color: var(--d3);
+    margin-bottom:30px;
 }
 
-nav ul, .grid, .flex {
+nav ul, .main ul, .flex {
     padding-left: 0;
     list-style: none;
 }
@@ -86,7 +88,9 @@ footer ul.migas li a:hover {
     gap: 8px
 }
 
-main ul.grid {
+main ul {
+    padding-left:0;
+    list-style:none;
     display: grid;
     grid-template-columns: repeat( auto-fit, minmax(121px, 1fr) );
     gap: 0.6em;
@@ -155,23 +159,36 @@ li a span {
     text-align: center;
 }
 
-/* Vista tipo lista */
+/* Vista tipo lista  - - - - - - - - - - - - - - - */
+
 ul.lista {
     grid-template-columns: 1fr !important;
 }
 
 ul.lista li a {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    gap: calc(var(--m)/3);
+    /* grid-template-columns: auto 1fr; */
     padding: 4px;
     background: var(--l2);
     border: #var(--d2) solid 1px;
-    border-radius: 30px;
+    border-radius: 60px;
     align-items: center;
-    justify-items: stretch;
-    justify-content: space-between;
+    /* justify-items: stretch; */
+    /* justify-content: flex-start; */
     transition: var(--t);
+    color: var(--d1);
+    border: var(--d3) 1px solid;
+    box-shadow: inset var(--bxsw2);
 }
+
+ul.lista li a:hover {
+    /* color: var(--l1); */
+    border-color: var(--c2);
+    box-shadow: var(--bxsw2);
+    background-color: var(--l1);
+}
+
 
 ul.lista a i {
     display: flex;
@@ -197,33 +214,38 @@ ul.lista li a:hover span {
     text-shadow: 0 0 8px var(--l1);
 }
 
-ul.lista li a {
-    color: var(--d1);
-    border: var(--d3) 1px solid;
-    box-shadow: inset var(--bxsw2);
+ul.lista li img{
+    width:140px;
 }
 
-ul.lista li a:hover {
+ul.lista li.file a img {
+    max-width: calc(7% + 2px) !important;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+/* destacados - - - - - - - - - - - - - - - - - - - - - - */
+ul li.destacado a,
+ul.lista li.destacado a {
     background: var(--c2);
-    /* color: var(--l1); */
-    border-color: var(--c2);
-    box-shadow: var(--bxsw2);
 }
 
-ul.lista li a:hover i {
-    background-color: var(--l1);
+ul li.destacado a i,
+ul li.destacado a,
+ul.lista li.destacado a i,
+ul.lista .destacado a {
+    color: var(--l1) !important;
+    background-color: var(--c2) !important;
 }
 
-li a.destacado, .lista a.destacado {
-    background: var(--c2);
-}
-
-li a.destacado i, .grid .destacado a, .lista .destacado i, .lista .destacado a {
-    color: var(--l1);
-    background-color: var(--c2);
-}
-
-/* migas */
+/* migas - - - - - - - - - - - - - - - - - - - - - - - - -*/
 .migas a {
     padding: 4px;
     border-radius: 20px;
@@ -246,7 +268,7 @@ li a.destacado i, .grid .destacado a, .lista .destacado i, .lista .destacado a {
 
 
 
-/* imagenes */
+/* imagenes - - - - - - - - - - - - - - - - - - - - - - */
 .file img {
     max-width: calc(100% + 26px) !important;
     display: block;
