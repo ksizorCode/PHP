@@ -1,0 +1,73 @@
+{
+    "datos": [
+      {
+        "clases": ["cars"],
+        "contenido": "BMW"
+      },
+      {
+        "clases": ["cars", "animals"],
+        "contenido": "Jaguar"
+      },
+      {
+        "clases": ["colors", "fruits"],
+        "contenido": "Orange"
+      },
+      {
+        "clases": ["cars"],
+        "contenido": "Volvo"
+      },
+      {
+        "clases": ["colors"],
+        "contenido": "Red"
+      },
+      {
+        "clases": ["cars"],
+        "contenido": "Ford"
+      },
+      {
+        "clases": ["colors"],
+        "contenido": "Blue"
+      },
+      {
+        "clases": ["animals"],
+        "contenido": "Cat"
+      },
+      {
+        "clases": ["animals"],
+        "contenido": "Dog"
+      },
+      {
+        "clases": ["fruits"],
+        "contenido": "Melon"
+      },
+      {
+        "clases": ["fruits", "animals"],
+        "contenido": "Kiwi"
+      },
+      {
+        "clases": ["fruits"],
+        "contenido": "Banana"
+      },
+      {
+        "clases": ["fruits"],
+        "contenido": "Lemon"
+      },
+      {
+        "clases": ["ciudad"],
+        "contenido": "París"
+      },
+      {
+        "clases": ["ciudad", "animals"],
+        "contenido": "León"
+      },
+      {
+        "clases": ["ciudad"],
+        "contenido": "Gijón"
+      },
+      {
+        "clases": ["animals"],
+        "contenido": "Cow"
+      }
+    ]
+  }
+  

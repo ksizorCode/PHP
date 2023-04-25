@@ -4,6 +4,14 @@
 <? cargar('header') ?>
 
 
+<? echo "TESTEO";
+
+$jsgithub="https://github.com/ksizorCode/PHP/blob/main/PHP/8%20JSON/4.%20JSON%20Reader/JSON/datos.json";
+
+echo $jsgithub;
+?>
+
+
     <?php
 // 0. LEE EL CÓDIGO POR BLOQUES DE ABAJOPARA ARRIBA: 3, 2, 1
 
@@ -11,7 +19,9 @@ if(isset($_GET['file'])){
     $archivoJSON = $_GET['file'];
 }
 else{
-    $archivoJSON='datos.json';
+    // $archivoJSON='datos.json';
+    $archivoJSON='https://github.com/ksizorCode/PHP/blob/main/PHP/8%20JSON/4.%20JSON%20Reader/JSON/datos.json';
+
 }
 
 // $archivoJSON='fran.json';

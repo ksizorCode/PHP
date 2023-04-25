@@ -19,6 +19,13 @@
 
 * {
     box-sizing: border-box;
+    cursor:default;
+}
+
+
+::selection {
+    background: none;
+    color: none;
 }
 
 body {
@@ -35,6 +42,7 @@ body {
 a {
     text-decoration: none;
     color: var(--c2);
+    cursor:pointer !important;
 }
 
 header {

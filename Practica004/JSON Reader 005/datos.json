@@ -1,0 +1,228 @@
+{
+  "datos": [
+    {
+      "c1": "La Mona Lisa",
+      "c2": "Leonardo da Vinci",
+      "c3": 1503,
+      "c4": "Museo del Louvre, París",
+      "c5": "pintura",
+      "p" : "Francia"
+    },
+    {
+      "c1": "La última cena",
+      "c2": "Leonardo da Vinci",
+      "c3": 1495,
+      "c4": "Convento de Santa Maria delle Grazie, Milán",
+      "c5": "pintura",
+      "p" : "Italia"
+    },
+    {
+      "c1": "La creación de Adán",
+      "c2": "Miguel Ángel",
+      "c3": 1508,
+      "c4": "Capilla Sixtina, Ciudad del Vaticano",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La noche estrellada",
+      "c2": "Vincent van Gogh",
+      "c3": 1889,
+      "c4": "Museo de Arte Moderno, Nueva York, EE. UU.",
+      "c5": "pintura",
+      "p" : "USA"
+
+    },
+    {
+      "c1": "La persistencia de la memoria",
+      "c2": "Salvador Dalí",
+      "c3": 1931,
+      "c4": "Museo de Arte Moderno, Nueva York, EE. UU.",
+      "c5": "pintura"
+    },
+    {
+      "c1": "El grito",
+      "c2": "Edvard Munch",
+      "c3": 1893,
+      "c4": "Museo Nacional de Oslo, Noruega",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La libertad guiando al pueblo",
+      "c2": "Eugène Delacroix",
+      "c3": 1830,
+      "c4": "Museo del Louvre, París",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La Venus de Milo",
+      "c2": "Alexandros de Antioquía",
+      "c3": -100,
+      "c4": "Museo del Louvre, París",
+      "c5": "escultura"
+    },
+    {
+      "c1": "David",
+      "c2": "Miguel Ángel",
+      "c3": 1504,
+      "c4": "Galería de la Academia, Florencia, Italia",
+      "c5": "escultura"
+    },
+    {
+      "c1": "El pensador",
+      "c2": "Auguste Rodin",
+      "c3": 1902,
+      "c4": "Museo Rodin, París",
+      "c5": "escultura"
+    },
+    {
+      "c1": "El beso",
+      "c2": "Gustav Klimt",
+      "c3": 1907,
+      "c4": "Galería Belvedere, Viena, Austria",
+      "c5": "pintura"
+    },
+    {
+      "c1": "Guernica",
+      "c2": "Pablo Picasso",
+      "c3": 1937,
+      "c4": "Museo Nacional Centro de Arte Reina Sofía, Madrid, España",
+      "c5": "pintura"
+    },
+    {
+      "c1": "Las meninas",
+      "c2": "Diego Velázquez",
+      "c3": 1656,
+      "c4": "Museo del Prado, Madrid, España",
+      "c5": "pintura"
+    },
+    {
+      "c1": "El nacimiento de Venus",
+      "c2": "Sandro Botticelli",
+      "c3": 1486,
+      "c4": "Galería de los Uffizi, Florencia, Italia",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La primavera",
+      "c2": "Sandro Botticelli",
+      "c3": 1482,
+      "c4": "Galería de los Uffizi, Florencia, Italia",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La noche",
+      "c2": "Michelangelo Merisi da Caravaggio",
+      "c3": 1599,
+      "c4": "Galleria Nazionale d'Arte Antica, Roma",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La Última Cena",
+      "c2": "Tintoretto",
+      "c3": 1592,
+      "c4": "Iglesia de San Giorgio Maggiore, Venecia",
+      "c5": "pintura",
+      "p" : "Italia"
+
+    },
+    {
+      "c1": "El jardín de las delicias",
+      "c2": "Hieronymus Bosch",
+      "c3": 1505,
+      "c4": "Museo del Prado, Madrid, España",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La persistencia de la memoria",
+      "c2": "Salvador Dalí",
+      "c3": 1931,
+      "c4": "Museo de Arte Moderno, Nueva York, EE. UU.",
+      "c5": "pintura"
+    },
+    {
+      "c1": "Los amantes",
+      "c2": "René Magritte",
+      "c3": 1928,
+      "c4": "Colección particular",
+      "c5": "pintura"
+    },
+    {
+      "c1": "El nacimiento de la Vía Láctea",
+      "c2": "Peter Paul Rubens",
+      "c3": 1636,
+      "c4": "Museo del Prado, Madrid, España",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La lección de anatomía del Dr. Nicolaes Tulp",
+      "c2": "Rembrandt van Rijn",
+      "c3": 1632,
+      "c4": "Mauritshuis, La Haya, Países Bajos",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La balsa de la Medusa",
+      "c2": "Théodore Géricault",
+      "c3": 1818,
+      "c4": "Museodel Louvre, París",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La Venus del espejo",
+      "c2": "Diego Velázquez",
+      "c3": 1647,
+      "c4": "National Gallery, Londres, Reino Unido",
+      "c5": "pintura"
+    },
+    {
+      "c1": "El jardín de las delicias",
+      "c2": "Hieronymus Bosch",
+      "c3": 1505,
+      "c4": "Museo del Prado, Madrid, España",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La tentación de San Antonio",
+      "c2": "Salvador Dalí",
+      "c3": 1946,
+      "c4": "Museo Nacional Centro de Arte Reina Sofía, Madrid, España",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La gran ola de Kanagawa",
+      "c2": "Katsushika Hokusai",
+      "c3": 1830,
+      "c4": "Museo Metropolitano de Arte, Nueva York, EE. UU.",
+      "c5": "grabado"
+    },
+    {
+      "c1": "La catedral de Rouen",
+      "c2": "Claude Monet",
+      "c3": 1894,
+      "c4": "Museo de Orsay, París",
+      "c5": "pintura"
+    },
+    {
+      "c1": "Naturaleza muerta con silla de paja",
+      "c2": "Vincent van Gogh",
+      "c3": 1888,
+      "c4": "Van Gogh Museum, Ámsterdam, Países Bajos",
+      "c5": "pintura"
+    },
+    {
+      "c1": "La persistencia de la memoria",
+      "c2": "Salvador Dalí",
+      "c3": 1931,
+      "c4": "Museo de Arte Moderno, Nueva York, EE. UU.",
+      "c5": "pintura"
+    }
+  ],
+  "campos": {
+    "c1": "Título de la obra",
+    "c2": "Autor",
+    "c3": "Fecha ejecución",
+    "c4": "Año",
+    "c5": "Ámbito",
+    "p": "País"
+  }
+}

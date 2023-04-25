@@ -2,6 +2,7 @@
 <? include 'funciones.php'?>
 
 <? cargar('header') ?>
+holaaa
 
     <?php
 // 0. MOSTRAR SÓLO UN PERSONAJE )1 DATO) -------------------------------

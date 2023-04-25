@@ -51,7 +51,7 @@ migasPan();
 
 <main>
 
-<ul class="grid" id="archivos">
+<ul id="archivos">
 
 <?php
 foreach($archivos as $archivo){
@@ -103,7 +103,7 @@ foreach($archivos as $archivo){
   //Mostrar Migas de Pan 
 migasPan(); 
   ?>
-<p>Navigation System by Miguel Esteban <? echo date('Y');?> Versión 20abr - 0.56</p>
+<p>Navigation System by Miguel Esteban <? echo date('Y');?> Versión 23abr - 0.58</p>
 </footer>
 
 <script>

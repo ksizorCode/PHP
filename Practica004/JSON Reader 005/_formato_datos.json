@@ -1,0 +1,25 @@
+{
+    "datos": [
+      {
+        "c1": "Ana",
+        "c2": 25,
+        "c3": "Madrid"
+      },
+      {
+        "c1": "Juan",
+        "c2": 30,
+        "c3": "Barcelona"
+      },
+      {
+        "c1": "María",
+        "c2": 40,
+        "c3": "Sevilla"
+      }
+    ],
+  
+    "campos": {
+      "c1": "nombre",
+      "c2": "edad",
+      "c3": "ciudad"
+    }
+  }

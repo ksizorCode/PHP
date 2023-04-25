@@ -1,0 +1,28 @@
+body{
+    max-width:960px;
+    margin:10px auto;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+#paseDiapos img{
+    width:100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    margin-top:20px;
+    border-radius: 10px;
+    box-shadow:0 0 28px coral;
+}
+
+button{
+    background: none;
+    border:solid 2px coral;
+    color:coral;
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+
+button:hover{
+    background: coral;
+    color:white;
+}
